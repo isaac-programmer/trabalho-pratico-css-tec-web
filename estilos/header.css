@@ -1,11 +1,10 @@
-header {
+/* header {
     border: 1px solid black;
-}
+} */
 
 header #informacoes {
     display: flex;
-    border: 1px solid;
-    margin: 0 0 20px 0;
+    margin-bottom: 20px;
 }
 
 header #informacoes figure {
@@ -20,19 +19,92 @@ header #informacoes figure img {
     margin-right: 20px;
 }
 
-header ul {
+header #informacoes #conjunto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header #informacoes #conjunto #titulo-descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+header #informacoes #conjunto #titulo-descricao h3 {
+    margin-top: 10px;
+}
+
+header #informacoes #conjunto #linguagens {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+header #informacoes #conjunto #linguagens a {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: rgba(255, 166, 0, 0.563);
+    text-decoration: none;
+}
+
+header #informacoes #conjunto #linguagens a:last-child {
+    margin-right: 0;
+}
+
+header #navegacao-busca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 166, 0, 0.563);
+}
+
+header #navegacao-busca nav {
+    width: 80%;
+}
+
+header #navegacao-busca nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    border: 1px solid;
-    padding: 20px;
-    background-color: rgba(255, 166, 0, 0.563);
 }
 
 header ul a {
     color: white;
     font-weight: 900;
     text-decoration: none;
+}
+
+header ul a:hover {
+    color: black;
+}
+
+header #navegacao-busca #busca {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10%;
+    margin-left: 20px;
+}
+
+header #navegacao-busca #busca input[type="text"] {
+    padding: 4px;
+    width: 100%;
+}
+
+.icone-busca {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
