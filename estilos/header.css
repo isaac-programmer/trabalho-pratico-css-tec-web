@@ -59,12 +59,12 @@ header #navegacao-busca {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 40px;
     background-color: rgba(255, 166, 0, 0.563);
 }
 
 header #navegacao-busca nav {
-    width: 80%;
+    width: 75%;
 }
 
 header #navegacao-busca nav ul {
@@ -76,9 +76,7 @@ header #navegacao-busca nav ul {
 }
 
 header ul a {
-    color: white;
     font-weight: 900;
-    text-decoration: none;
 }
 
 header ul a:hover {
@@ -90,19 +88,20 @@ header #navegacao-busca #busca {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 10%;
+    width: 15%;
     margin-left: 20px;
 }
 
 header #navegacao-busca #busca input[type="text"] {
-    padding: 4px;
+    padding: 5px 30px 5px 5px;
     width: 100%;
 }
 
 .icone-busca {
+    cursor: pointer;
     position: absolute;
-    top: 50%;
-    right: 10px;
+    top: 55%;
+    right: 5px;
     transform: translateY(-50%);
     background-color: transparent;
     border: none;
