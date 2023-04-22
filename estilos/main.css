@@ -42,7 +42,7 @@ main #posts {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 main #posts article {
@@ -74,4 +74,14 @@ main #posts article p {
     text-overflow: ellipsis;
     text-align: justify;
     max-width: 100%;
+}
+
+/* Section - Assinar Newsletter */
+main #assinar-newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid black;
 }
