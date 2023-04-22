@@ -36,3 +36,42 @@ main div#agregado01{
     justify-content: center;
     align-items: center;
 }
+
+/* Section - Posts */
+main #posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main #posts article {
+    cursor: pointer;
+    width: 30%;
+    height: 260px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: transform .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main #posts article:hover {
+    transform: scale(1.04);
+}
+
+main #posts article h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main #posts article p {
+    hyphens: auto;
+    text-indent: 40px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    max-width: 100%;
+}
