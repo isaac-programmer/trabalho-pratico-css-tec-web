@@ -85,3 +85,47 @@ main #assinar-newsletter {
     margin-top: 40px;
     border: 1px solid black;
 }
+
+main div#tituloactfig{
+    border: 1px solid black;
+    background-color: rgba(255, 166, 0, 0.563);
+
+}
+
+main div#titulomanga{
+    border: 1px solid black;
+    background-color: rgba(255, 166, 0, 0.563);
+
+}
+
+.figura{
+    position: relative;
+    border: 8px solid white;
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+}
+
+img{
+    width: 100%;
+}
+
+#imgmanga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#post02{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section#first{
+    border: 1px solid black;
+}
+
+
