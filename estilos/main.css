@@ -37,15 +37,15 @@ main div#agregado01{
     align-items: center;
 }
 
-/* Section - Posts */
-main #posts {
+/* Section - Cards - Início */
+main #cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-main #posts article {
+main #cards article {
     cursor: pointer;
     width: 30%;
     height: 260px;
@@ -57,16 +57,16 @@ main #posts article {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-main #posts article:hover {
+main #cards article:hover {
     transform: scale(1.04);
 }
 
-main #posts article h3 {
+main #cards article h2 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-main #posts article p {
+main #cards article p {
     hyphens: auto;
     text-indent: 40px;
     word-wrap: break-word;
@@ -76,15 +76,70 @@ main #posts article p {
     max-width: 100%;
 }
 
-/* Section - Assinar Newsletter */
+/* Section - Cards - Fim */
+
+/* Section - Assinar Newsletter - Início */
 main #assinar-newsletter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    padding: 40px 0;
     border: 1px solid black;
 }
+
+main #assinar-newsletter h2 {
+    margin-bottom: 40px;
+}
+
+main #assinar-newsletter form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+main #assinar-newsletter form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+main #assinar-newsletter form div:last-child {
+    margin-bottom: 0;
+}
+
+main #assinar-newsletter form select,
+main #assinar-newsletter form input[type="text"],
+main #assinar-newsletter form input[type="tel"],
+main #assinar-newsletter form input[type="email"],
+main #assinar-newsletter form input[type="date"] {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+}
+
+main #assinar-newsletter form #botao-assinar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main #assinar-newsletter form button {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 166, 0, 0.563);
+}
+
+/* Section - Assinar Newsletter - Fim */
 
 main div#tituloactfig{
     border: 1px solid black;
