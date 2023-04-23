@@ -206,6 +206,10 @@ div.post-main{
 
 section#video-navigate #video{
     margin-bottom: 20px;
+    border: 1px solid black;
+}
+section#video-navigate .quadros-gray{
+    border:1px solid black;
 }
 
 .figura{
@@ -227,7 +231,7 @@ img{
     align-items: center;
 }
 
-#post02{
+#manga{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -236,6 +240,14 @@ img{
 
 section#first{
     border: 1px solid black;
+}
+
+article#post01{
+    border:1px solid black;
+}
+
+article#post02{
+    border:1px solid black;
 }
 
 
