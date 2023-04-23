@@ -33,8 +33,30 @@ main div#botao a:first-child{
 
 main div#agregado01{
     display: flex;
-    justify-content: center;
+}
+
+main div#agregado03{
+    display: flex;
     align-items: center;
+    padding-left: 20px;
+}
+
+main div#agregado04{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+main div#agregado05{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+main div#agregado06{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
 /* Section - Cards - Início */
@@ -222,6 +244,10 @@ section#video-navigate .quadros-gray{
 
 img{
     width: 100%;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
 }
 
 #imgmanga{
@@ -242,6 +268,11 @@ section#first{
     border: 1px solid black;
 }
 
+section#novidades div#agregados03{
+    display: flex;
+    border: 1px solid black;
+}
+
 article#post01{
     border:1px solid black;
 }
@@ -250,6 +281,61 @@ article#post02{
     border:1px solid black;
 }
 
+section#novidades{
+    border:1px solid black;
+    width: 50%;
+}
+
+section#novidades ul.info{
+    list-style-type: none;
+    padding: 20px;
+}
+
+section#novidades div.extra{
+    background-color: #eeeeee;
+    padding-left: 20px;
+}
+
+section#novidades ul a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section#novidades ul a:hover {
+    color: blue;
+}
+
+section#novidades .imagem-novidades{
+    position: relative;
+    width: 100px;
+
+}
+
+section#sobre{
+    border:1px solid black;
+    margin-left: 20px;
+    width: 50%;
+}
+
+section#sobre div.extra{
+    background-color: #b44545;
+}
+
+section#novidades-sobre{
+    display: flex;
+}
+
+section#sobre ul li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section#sobre div.info-sobre{
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
 
 /* Section - First - Fim*/
 
