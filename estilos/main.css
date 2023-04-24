@@ -1,13 +1,28 @@
-main {
+/* main {
     border: 1px solid black;
-}
+} */
+
+
+/* Seção - Banner - Início */
+
+main #banner {
+    margin: 20px 0;
+    height: 650px;
+    background-image: url("https://images3.alphacoders.com/806/806997.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}   
+
+/* Seção - Banner - Fim */
+
 
 ul.info{
     list-style-type: square;
     padding: 20px;
 }
 
- main div#botao{
+main div#botao{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,6 +74,7 @@ main div#agregado06{
     padding-left: 20px;
 }
 
+
 /* Section - Cards - Início */
 
 main #cards {
@@ -100,6 +116,7 @@ main #cards article p {
 }
 
 /* Section - Cards - Fim */
+
 
 /* Section - Assinar Newsletter - Início */
 
@@ -166,6 +183,7 @@ main #assinar-newsletter form button {
 }
 
 /* Section - Assinar Newsletter - Fim */
+
 
 /* Section - First - Início*/
 main div#tituloactfig{
@@ -343,7 +361,8 @@ section#sobre div.info-sobre{
 
 /* Section - First - Fim*/
 
-/* Section - Ultimas Avaliações - Início */
+
+/* Section - Últimas Avaliações - Início */
 
 main #ultimas-avaliacoes {
     padding: 40px 0;
@@ -448,4 +467,4 @@ main #ultimas-avaliacoes .card-avaliacao .informacoes {
     background-color: rgba(255, 166, 0, 0.563);
 }
 
-/* Section - Ultimas Avaliações - Fim */
+/* Section - Últimas Avaliações - Fim */
