@@ -546,7 +546,18 @@ section#eventos .evento{
 }
 
 section#eventos h3{
+    display: flex;
     padding-left: 20px;
     background-color: #eeeeee;
+    justify-content: center;
 }
+
+section#eventos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
 /* Section - Rank-Eventos - Fim */
