@@ -486,7 +486,7 @@ section#rank-eventos a{
 
 #rank-eventos {
     margin-top: 40px;
-    padding: 0 40px 40px;
+    padding: 0 0 40px;
     border: 1px solid black;
 }
 
@@ -499,64 +499,46 @@ section#rank-eventos a{
     flex-direction: row;
 }
 
-#rank-eventos div#agregado09{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes {
+    padding: 40px;
+    border: 1px solid;
 }
 
-#rank-eventos div#agregado10{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes hr {
+    margin: 20px 0;
 }
 
-#rank-eventos div#agregado11{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes .anime-rank {
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    max-height: 300px;
 }
 
-#rank-eventos div#agregado12{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes .anime-rank .imagem-rank {
+    /* border: 1px solid; */
 }
 
-#rank-eventos div#agregado13{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes .anime-rank .imagem-rank img {
+    display: inline-block;
+    min-width: 100%;
+    max-width: 100%;
 }
 
-#rank-eventos div#agregado14{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+#rank-eventos #rank-animes .anime-rank .imagem-rank figcaption {
+    color: white;
+    padding: 5px;
+    margin: 0 !important;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: grey;
 }
 
-#rank-eventos div#agregado15{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-#rank-eventos div#agregado16{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-#rank-eventos div#agregado17{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-#rank-eventos div#agregado18{
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
+#rank-eventos #rank-animes .anime-rank .descricao-rank {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 section#eventos .evento{
