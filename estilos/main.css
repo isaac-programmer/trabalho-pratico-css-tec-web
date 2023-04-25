@@ -499,40 +499,57 @@ section#rank-eventos a{
     flex-direction: row;
 }
 
-#rank-eventos #rank-animes {
+#rank-eventos #rank-animes,
+#rank-eventos #rank-mangas {
     padding: 40px;
-    border: 1px solid;
 }
 
-#rank-eventos #rank-animes hr {
+#rank-eventos #rank-animes h2,
+#rank-eventos #rank-mangas h2 {
+    margin-bottom: 40px;
+}
+
+#rank-eventos #rank-animes hr,
+#rank-eventos #rank-mangas hr {
     margin: 20px 0;
 }
 
-#rank-eventos #rank-animes .anime-rank {
+#rank-eventos #rank-animes .anime-rank,
+#rank-eventos #rank-mangas .manga-rank {
     cursor: pointer;
     width: 300px;
     height: auto;
     max-height: 300px;
 }
 
-#rank-eventos #rank-animes .anime-rank .imagem-rank {
-    /* border: 1px solid; */
+#rank-eventos #rank-animes .anime-rank .imagem-rank,
+#rank-eventos #rank-mangas .manga-rank .imagem-rank {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#rank-eventos #rank-animes .anime-rank .imagem-rank img {
+#rank-eventos #rank-animes .anime-rank .imagem-rank img,
+#rank-eventos #rank-mangas .manga-rank .imagem-rank img {
     display: inline-block;
     min-width: 100%;
     max-width: 100%;
 }
 
-#rank-eventos #rank-animes .anime-rank .imagem-rank figcaption {
+#rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
+#rank-eventos #rank-mangas .manga-rank .imagem-rank figcaption {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
     color: white;
     padding: 5px;
     margin: 0 !important;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.8);
 }
 
 #rank-eventos #rank-animes .anime-rank .descricao-rank {
