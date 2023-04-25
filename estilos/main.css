@@ -541,3 +541,14 @@ main #ultimas-avaliacoes .card-avaliacao .informacoes {
 }
 
 /* Section - Últimas Avaliações - Fim */
+
+/* Section - Rank-eventos - início */
+
+section#eventos .evento{
+    border: 1px solid black;
+}
+
+section#eventos h3{
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
