@@ -74,66 +74,6 @@ main div#agregado06{
     padding-left: 20px;
 }
 
-main div#agregado09{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado10{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado11{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado12{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado13{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado14{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado15{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado16{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado17{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado18{
-    display: flex;
-    align-items: center;
-    padding-left: 12px;
-}
-
 
 /* Section - Cards - Início */
 
@@ -437,23 +377,23 @@ section#rank-eventos a{
 
 /* Section - Últimas Avaliações - Início */
 
-main #ultimas-avaliacoes {
+#ultimas-avaliacoes {
     padding: 40px 0;
 }
 
-main #ultimas-avaliacoes h2 {
+#ultimas-avaliacoes h2 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-main #ultimas-avaliacoes #avaliacoes {
+#ultimas-avaliacoes #avaliacoes {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-main #ultimas-avaliacoes #avaliacoes .card-avaliacao {
+#ultimas-avaliacoes #avaliacoes .card-avaliacao {
     width: 25%;
     padding: 20px;
     margin-right: 40px;
@@ -463,11 +403,11 @@ main #ultimas-avaliacoes #avaliacoes .card-avaliacao {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-main #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
+#ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
     margin-right: 0;
 }
 
-main #ultimas-avaliacoes .card-avaliacao .informacoes {
+#ultimas-avaliacoes .card-avaliacao .informacoes {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -542,7 +482,82 @@ main #ultimas-avaliacoes .card-avaliacao .informacoes {
 
 /* Section - Últimas Avaliações - Fim */
 
-/* Section - Rank-eventos - início */
+/* Section - Rank e Eventos - Início */
+
+#rank-eventos {
+    margin-top: 40px;
+    padding: 0 40px 40px;
+    border: 1px solid black;
+}
+
+#rank-eventos h2 {
+    text-align: center;
+}
+
+#rank-eventos #conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+#rank-eventos div#agregado09{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado10{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado11{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado12{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado13{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado14{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado15{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado16{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado17{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#rank-eventos div#agregado18{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
 
 section#eventos .evento{
     border: 1px solid black;
@@ -552,3 +567,4 @@ section#eventos h3{
     padding-left: 20px;
     background-color: #eeeeee;
 }
+/* Section - Rank-Eventos - Fim */
