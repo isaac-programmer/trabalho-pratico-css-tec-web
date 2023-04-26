@@ -50,30 +50,6 @@ main div#agregado01{
     display: flex;
 }
 
-main div#agregado03{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado04{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado05{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-main div#agregado06{
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
 
 /* Section - Cards - Início */
 
@@ -264,13 +240,14 @@ section#video-navigate .quadros-gray{
     height: 250px;
 }
 
+/* 
 img{
     width: 100%;
     margin-left: 0em;
     margin-top: 0em;
     margin-right: 0em;
     margin-bottom: 0em;
-}
+} */
 
 #imgmanga{
     display: flex;
@@ -290,11 +267,6 @@ section#first{
     border: 1px solid black;
 }
 
-section#novidades div#agregados03{
-    display: flex;
-    border: 1px solid black;
-}
-
 article#post01{
     border:1px solid black;
 }
@@ -308,23 +280,18 @@ section#novidades{
     width: 50%;
 }
 
-section#novidades ul.info{
-    list-style-type: none;
-    padding: 20px;
-}
-
 section#novidades div.extra{
     background-color: #eeeeee;
     padding-left: 20px;
 }
 
-section#novidades ul a{
+section#novidades p a{
     color: black;
     text-decoration: none;
     list-style: none;
 }
 
-section#novidades ul a:hover {
+section#novidades p a:hover {
     color: blue;
 }
 
@@ -334,8 +301,29 @@ section#novidades .imagem-novidades{
 
 }
 
+section#novidades .novidade {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+section#novidades .novidade .imagem-novidades {
+    width: 300px;
+    height: 200px;
+}
+
+section#novidades .novidade .imagem-novidades img {
+    width: 300px;
+    height: 200px;
+}
+
+section#novidades .novidade p {
+    padding-left: 20px;
+    text-align: justify;
+}
+
 section#sobre{
-    border:1px solid black;
+    border: 1px solid black;
     margin-left: 20px;
     width: 50%;
 }
