@@ -162,25 +162,25 @@ main #assinar-newsletter form button {
 
 
 /* Section - First - Início*/
-main div#tituloactfig{
+main article#post01 h2{
     border: 1px solid black;
     background-color: rgba(255, 166, 0, 0.563);
 
 }
 
-main div#titulomanga{
+main article#post02 h2{
     border: 1px solid black;
     background-color: rgba(255, 166, 0, 0.563);
 
 }
 
-main div#navigate{
+main aside#navigate h2{
     border: 1px solid black;
     background-color: gray;
     padding: 5px;
 }
 
-main div#social{
+main section#video h2{
     border: 1px solid black;
     background-color: gray;
     padding: 5px;
@@ -279,7 +279,7 @@ section#novidades{
     width: 50%;
 }
 
-section#novidades div.extra{
+section#novidades h2{
     background-color: #eeeeee;
     padding-left: 20px;
 }
@@ -328,10 +328,6 @@ section#sobre{
     width: 50%;
 }
 
-section#sobre div.extra{
-    background-color: #b44545;
-}
-
 section#novidades-sobre{
     display: flex;
 }
@@ -342,7 +338,7 @@ section#sobre ul li{
     list-style: none;
 }
 
-section#sobre div.info-sobre{
+section#sobre h2{
     padding-left: 20px;
     background-color: #eeeeee;
 }
@@ -588,6 +584,11 @@ section#eventos .evento .imagem-eventos{
 
 section#eventos .evento p{
     padding: 15px;
+}
+
+section#eventos .evento .imagem-eventos img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Section - Rank-Eventos - Fim */
