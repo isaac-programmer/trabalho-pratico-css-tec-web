@@ -257,7 +257,6 @@ section#video-navigate .quadros-gray{
 }
 
 .figura{
-    position: relative;
     border: 8px solid white;
     display: inline-block;
     width: 150px;
@@ -270,6 +269,7 @@ img{
     margin-top: 0em;
     margin-right: 0em;
     margin-bottom: 0em;
+    height: 100%;
 }
 
 #imgmanga{
@@ -328,9 +328,10 @@ section#novidades ul a:hover {
     color: blue;
 }
 
-section#novidades .imagem-novidades{
-    position: relative;
-    width: 100px;
+section#novidades .imagem-novidades img{
+    min-width: 100px;
+    border: 1px solid black;
+    width: 100%;
 
 }
 
@@ -573,6 +574,9 @@ section#eventos{
     display: flex;
     flex-direction: column;
     gap: 60px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 section#eventos .evento .imagem-eventos figcaption {
