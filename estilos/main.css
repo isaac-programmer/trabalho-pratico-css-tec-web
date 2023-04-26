@@ -162,25 +162,25 @@ main #assinar-newsletter form button {
 
 
 /* Section - First - Início*/
-main div#tituloactfig{
+main article#post01 h2{
     border: 1px solid black;
     background-color: rgba(255, 166, 0, 0.563);
 
 }
 
-main div#titulomanga{
+main article#post02 h2{
     border: 1px solid black;
     background-color: rgba(255, 166, 0, 0.563);
 
 }
 
-main div#navigate{
+main aside#navigate h2{
     border: 1px solid black;
     background-color: gray;
     padding: 5px;
 }
 
-main div#social{
+main section#video h2{
     border: 1px solid black;
     background-color: gray;
     padding: 5px;
@@ -263,6 +263,78 @@ article#post02{
     border:1px solid black;
 }
 
+<<<<<<< HEAD
+=======
+section#novidades{
+    border:1px solid black;
+    width: 50%;
+}
+
+section#novidades h2{
+    background-color: #eeeeee;
+    padding-left: 20px;
+}
+
+section#novidades p a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section#novidades p a:hover {
+    color: blue;
+}
+
+section#novidades .imagem-novidades img{
+    min-width: 100px;
+    border: 1px solid black;
+    width: 100%;
+
+}
+
+section#novidades .novidade {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+section#novidades .novidade .imagem-novidades {
+    width: 300px;
+    height: 200px;
+}
+
+section#novidades .novidade .imagem-novidades img {
+    width: 300px;
+    height: 200px;
+}
+
+section#novidades .novidade p {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+section#sobre{
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 50%;
+}
+
+section#novidades-sobre{
+    display: flex;
+}
+
+section#sobre ul li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section#sobre h2{
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
+
+>>>>>>> 359c5b16c8476f58a0ab2d59e262ba0b2c1cc81b
 section#rank-eventos div.top10-animes{
     padding-left: 20px;
     background-color: #eeeeee;
@@ -582,6 +654,11 @@ section#eventos .evento .imagem-eventos{
 
 section#eventos .evento p{
     padding: 15px;
+}
+
+section#eventos .evento .imagem-eventos img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Section - Rank-Eventos - Fim */
