@@ -26,19 +26,22 @@ header #informacoes #conjunto {
     justify-content: space-between;
 }
 
-header #informacoes #conjunto #titulo-descricao {
+header #informacoes #conjunto #titulo-descricao,
+header #informacoes #conjunto #linguagens-links {
     display: flex;
     flex-direction: column;
 }
 
 header #informacoes #conjunto #titulo-descricao h3 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
-header #informacoes #conjunto #linguagens {
+header #informacoes #conjunto #linguagens-links #linguagens,
+header #informacoes #conjunto #linguagens-links #links {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 header #informacoes #conjunto #linguagens a {
@@ -48,6 +51,30 @@ header #informacoes #conjunto #linguagens a {
     margin-right: 5px;
     background-color: rgba(255, 166, 0, 0.563);
     text-decoration: none;
+}
+
+header #informacoes #conjunto #linguagens a:hover {
+    color: black;
+}
+
+header #informacoes #conjunto #linguagens-links #links {
+    margin-top: 20px;
+}
+
+header #informacoes #conjunto #links span {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+header #informacoes #conjunto #links a {
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header #informacoes #conjunto #links a:hover {
+    color: rgba(255, 166, 0, 0.563);
 }
 
 header #informacoes #conjunto #linguagens a:last-child {
@@ -97,7 +124,7 @@ header #navegacao-busca #busca input[type="text"] {
     width: 100%;
 }
 
-.icone-busca {
+header #navegacao-busca #busca .icone-busca {
     cursor: pointer;
     position: absolute;
     top: 55%;

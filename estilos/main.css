@@ -162,6 +162,7 @@ main #assinar-newsletter form button {
 
 
 /* Section - First - Início*/
+
 main article#post01 h2{
     border: 1px solid black;
     background-color: rgba(255, 166, 0, 0.563);
@@ -276,6 +277,7 @@ section#rank-eventos a{
     color: black;
     margin-left: 10px;
 }
+
 /* Section - First - Fim*/
 
 
@@ -389,73 +391,82 @@ section#rank-eventos a{
 
 /* Section - Novidades e Sobre - Início */
 
-section#novidades{
-    border:1px solid black;
+#novidades-sobre {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#novidades {
+    border: 1px solid black;
     width: 50%;
 }
 
-section#novidades h2{
+#novidades h2 {
     background-color: #eeeeee;
     padding-left: 20px;
 }
 
-section#novidades p a{
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
-section#novidades p a:hover {
-    color: blue;
-}
-
-section#novidades .imagem-novidades img{
-    min-width: 100px;
-    border: 1px solid black;
-    width: 100%;
-
-}
-
-section#novidades .novidade {
+#novidades .novidade {
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-section#novidades .novidade .imagem-novidades {
+#novidades .novidade .imagem-novidades {
     width: 300px;
     height: 200px;
 }
 
-section#novidades .novidade .imagem-novidades img {
+#novidades .novidade .imagem-novidades img {
     width: 300px;
     height: 200px;
 }
 
-section#novidades .novidade p {
+#novidades .novidade p {
     padding-left: 20px;
     text-align: justify;
 }
 
-section#sobre{
-    border: 1px solid black;
-    margin-left: 20px;
-    width: 50%;
-}
-
-section#novidades-sobre{
-    display: flex;
-}
-
-section#sobre ul li{
+#novidades .novidade p a {
     color: black;
     text-decoration: none;
     list-style: none;
 }
 
-section#sobre h2{
+#novidades .novidade p a:hover {
+    color: blue;
+}
+
+
+#sobre-editorial-social {
+    width: 50%;
+    border: 1px solid black;
+}
+ 
+#sobre-editorial-social #sobre h2,
+#sobre-editorial-social #editorial h2,
+#sobre-editorial-social #redes-sociais h2 {
     padding-left: 20px;
     background-color: #eeeeee;
+}
+
+#sobre-editorial-social #sobre p,
+#sobre-editorial-social #editorial #conteudo-editorial {
+    padding: 20px;
+}
+
+#sobre-editorial-social #redes-sociais ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+#sobre-editorial-social #redes-sociais ul img {
+    width: 80px;
+    height: 80px;
 }
 
 /* Section - Novidades e Sobre - Fim */
