@@ -263,78 +263,6 @@ article#post02{
     border:1px solid black;
 }
 
-<<<<<<< HEAD
-=======
-section#novidades{
-    border:1px solid black;
-    width: 50%;
-}
-
-section#novidades h2{
-    background-color: #eeeeee;
-    padding-left: 20px;
-}
-
-section#novidades p a{
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
-section#novidades p a:hover {
-    color: blue;
-}
-
-section#novidades .imagem-novidades img{
-    min-width: 100px;
-    border: 1px solid black;
-    width: 100%;
-
-}
-
-section#novidades .novidade {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-section#novidades .novidade .imagem-novidades {
-    width: 300px;
-    height: 200px;
-}
-
-section#novidades .novidade .imagem-novidades img {
-    width: 300px;
-    height: 200px;
-}
-
-section#novidades .novidade p {
-    padding-left: 20px;
-    text-align: justify;
-}
-
-section#sobre{
-    border: 1px solid black;
-    margin-left: 20px;
-    width: 50%;
-}
-
-section#novidades-sobre{
-    display: flex;
-}
-
-section#sobre ul li{
-    color: black;
-    text-decoration: none;
-    list-style: none;
-}
-
-section#sobre h2{
-    padding-left: 20px;
-    background-color: #eeeeee;
-}
-
->>>>>>> 359c5b16c8476f58a0ab2d59e262ba0b2c1cc81b
 section#rank-eventos div.top10-animes{
     padding-left: 20px;
     background-color: #eeeeee;
@@ -461,12 +389,12 @@ section#rank-eventos a{
 
 /* Section - Novidades e Sobre - Início */
 
-section#novidades {
+section#novidades{
     border:1px solid black;
     width: 50%;
 }
 
-section#novidades div.extra{
+section#novidades h2{
     background-color: #eeeeee;
     padding-left: 20px;
 }
@@ -483,7 +411,9 @@ section#novidades p a:hover {
 
 section#novidades .imagem-novidades img{
     min-width: 100px;
+    border: 1px solid black;
     width: 100%;
+
 }
 
 section#novidades .novidade {
@@ -507,15 +437,10 @@ section#novidades .novidade p {
     text-align: justify;
 }
 
-
 section#sobre{
     border: 1px solid black;
     margin-left: 20px;
     width: 50%;
-}
-
-section#sobre div.extra{
-    background-color: #b44545;
 }
 
 section#novidades-sobre{
@@ -528,7 +453,7 @@ section#sobre ul li{
     list-style: none;
 }
 
-section#sobre div.info-sobre{
+section#sobre h2{
     padding-left: 20px;
     background-color: #eeeeee;
 }
