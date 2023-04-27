@@ -8,7 +8,7 @@
 main #banner {
     margin: 20px 0;
     height: 650px;
-    background-image: url("/imagens/banner.png");
+    background-image: url("imagens/banner.png");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
