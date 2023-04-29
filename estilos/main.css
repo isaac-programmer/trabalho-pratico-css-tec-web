@@ -199,6 +199,10 @@ article ul.info{
     justify-content: center;
 }
 
+div#agregado01 ul.info li{
+    font-size: 20px;
+}
+
 article#post01 #agregado01 .imagem img{
     width: 100%;
     height: 100%;
@@ -658,6 +662,7 @@ section#eventos .evento .imagem-eventos img{
 /* Section - Rank-Eventos - Fim */
 
 @media screen and ((max-width: 1010px)) {
+    /* Section First - Act fig, mangás, social, navegação */
     #first{
         display: flex;
         flex-direction: column;
@@ -692,7 +697,6 @@ section#eventos .evento .imagem-eventos img{
     }
 
     article#post01{
-        border:1px solid black;
         margin-bottom: 20px;
     }
 
@@ -723,6 +727,16 @@ section#eventos .evento .imagem-eventos img{
 }
 
 @media screen and (max-width: 375px) {
+    article#post02 #manga p{
+        padding-top: 80px;
+        
+    }
+    
+    article#post02 #manga #imgmanga{
+        gap: 80px;
+    }
+    
+
     article#post02 #manga #imgmanga .figura{
         width: 100px;
         height: 100px;
@@ -740,8 +754,74 @@ section#eventos .evento .imagem-eventos img{
     }
 
     main div#botao{
-        font-weight: 500;
+        font-weight: 300;
         
+    }
+
+    main div#botao a{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        
+    }
+}
+
+@media screen and (max-width: 300px) {
+    article#post02 #manga #imgmanga .figura{
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    article#post01 #agregado01 .imagem{
+        width: 80px;
+        height: 80px;
+    }
+
+    main div#botao a:first-child{
+        margin-right: 0px;
+        margin-bottom: 5px;
+    
+    }
+    
+    main div#botao{
+        font-weight: 150;
+        font-size: small;
+        flex-direction: column;
+        
+    }
+
+    main div#botao a{
+        padding: 1px;
+        width: 80px;
+        align-items: center;
+        
+    }
+
+    article ul.info{
+        margin-left: 30px;
+    }
+
+    div#agregado01 ul.info li{
+        font-size: 11px;
+    }
+
+    main article#post01 h2{
+        font-size: medium;
+    
+    }
+    
+    main article#post02 h2{
+        font-size: medium;
+    
+    }
+
+    main aside#navigate h2{
+        font-size: medium;
+    }
+    
+    main section#video h2{
+        font-size: medium;
     }
 }
 
