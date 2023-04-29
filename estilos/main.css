@@ -657,7 +657,7 @@ section#eventos .evento .imagem-eventos img{
 
 /* Section - Rank-Eventos - Fim */
 
-@media screen and (max-width: 1010px) {
+@media screen and ((max-width: 1010px)) {
     #first{
         display: flex;
         flex-direction: column;
@@ -688,7 +688,7 @@ section#eventos .evento .imagem-eventos img{
 
     section#video-navigate #video{
         margin-bottom: 20px;
-        border: 1px solid black;
+        
     }
 
     article#post01{
@@ -709,7 +709,7 @@ section#eventos .evento .imagem-eventos img{
 
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 475px) {
     article#post01 #agregado01 .imagem{
         width: 200px;
         height: 200px;
@@ -718,6 +718,30 @@ section#eventos .evento .imagem-eventos img{
     main div#botao a:first-child{
         margin-right: 25px;
     
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    article#post02 #manga #imgmanga .figura{
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    article#post01 #agregado01 .imagem{
+        width: 100px;
+        height: 100px;
+    }
+    
+    main div#botao a:first-child{
+        margin-right: 5px;
+    
+    }
+
+    main div#botao{
+        font-weight: 500;
+        
     }
 }
 
