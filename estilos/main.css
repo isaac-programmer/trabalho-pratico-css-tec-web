@@ -677,6 +677,33 @@ section#eventos .evento .imagem-eventos img{
         flex-direction: column;
         align-items: center;
     }
+
+    main article#post01 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    main article#post02 h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    main aside#navigate h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main section#video h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     
     article#post02 #manga #imgmanga{
         display: flex;
@@ -714,6 +741,7 @@ section#eventos .evento .imagem-eventos img{
 }
 
 @media screen and (max-width: 475px) {
+   
     article#post01 #agregado01 .imagem{
         width: 200px;
         height: 200px;
@@ -727,6 +755,24 @@ section#eventos .evento .imagem-eventos img{
 }
 
 @media screen and (max-width: 375px) {
+    main article#post01 h2{
+        font-size: medium;
+    
+    }
+    
+    main article#post02 h2{
+        font-size: medium;
+    
+    }
+
+    main aside#navigate h2{
+        font-size: medium;
+    }
+    
+    main section#video h2{
+        font-size: medium;
+    }
+    
     article#post02 #manga p{
         padding-top: 80px;
         
