@@ -1,133 +1,92 @@
-/* main {
-    border: 1px solid black;
-} */
-
-
 /* Seção - Banner - Início */
 
 main #banner {
-    margin: 20px 0;
-    height: 650px;
-    background-image: url("/imagens/banner.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}   
+  margin: 20px 0;
+  height: 650px;
+  background-image: url("/imagens/banner.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
 
 /* Seção - Banner - Fim */
-
-
-ul.info{
-    list-style-type: square;
-    padding: 20px;
-}
-
-main div#botao{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 20px;
-    color: black;
-    font-weight: 900;
-    text-decoration: none;
-}
-
-main div#botao a{
-    display: inline-block;
-    border: 1px solid black;
-    padding: 10px;
-    color: black;
-}
-
-main div#botao a:first-child{
-    margin-right: 100px;
-
-}
-
-main div#agregado01{
-    display: flex;
-}
 
 
 /* Section - Cards - Início */
 
 main #cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
 }
 
 main #cards article {
-    cursor: pointer;
-    width: 30%;
-    height: 280px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    transition: transform .3s ease-in-out;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  width: 30%;
+  height: 280px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 main #cards article:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 main #cards article h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 main #cards article p {
-    hyphens: auto;
-    text-indent: 40px;
-    word-wrap: break-word;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: justify;
-    max-width: 100%;
+  hyphens: auto;
+  text-indent: 40px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  max-width: 100%;
 }
 
 /* Section - Cards - Fim */
 
-
 /* Section - Assinar Newsletter - Início */
 
 main #assinar-newsletter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    padding: 40px 0;
-    border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 40px 0;
 }
 
 main #assinar-newsletter h2 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 main #assinar-newsletter form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    padding: 20px 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 main #assinar-newsletter form div {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 main #assinar-newsletter form div:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 main #assinar-newsletter form select,
@@ -142,930 +101,965 @@ main #assinar-newsletter form input[type="date"] {
 }
 
 main #assinar-newsletter form #botao-assinar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 main #assinar-newsletter form button {
-    cursor: pointer;
-    font-weight: 700;
-    padding: 10px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.563);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgba(255, 166, 0, 0.563);
 }
 
 /* Section - Assinar Newsletter - Fim */
 
-
 /* Section - First - Início*/
 
-main article#post01 h2{
-    border: 1px solid black;
-    background-color: rgba(255, 166, 0, 0.563);
-
+main article#post01 h2 {
+  border: 1px solid black;
+  background-color: rgba(255, 166, 0, 0.563);
 }
 
-main article#post02 h2{
-    border: 1px solid black;
-    background-color: rgba(255, 166, 0, 0.563);
-
+main article#post02 h2 {
+  border: 1px solid black;
+  background-color: rgba(255, 166, 0, 0.563);
 }
 
-main aside#navigate h2{
-    border: 1px solid black;
-    background-color: gray;
-    padding: 5px;
+main aside#navigate h2 {
+  border: 1px solid black;
+  background-color: gray;
+  padding: 5px;
 }
 
-main section#video h2{
-    border: 1px solid black;
-    background-color: gray;
-    padding: 5px;
+main section#video h2 {
+  border: 1px solid black;
+  background-color: gray;
+  padding: 5px;
 }
 
-aside ul a{
-    color: black;
-    text-decoration: none;
-    list-style: none;
+aside ul a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
 }
 
-article ul.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+article ul.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-div#agregado01 ul.info li{
-    font-size: 20px;
+div#agregado01 ul.info li {
+  font-size: 20px;
 }
 
-article#post01 #agregado01 .imagem img{
-    width: 100%;
-    height: 100%;
+article#post01 #agregado01 .imagem img {
+  width: 100%;
+  height: 100%;
 }
 
-article#post01 #agregado01 .imagem{
-    width: 300px;
-    height: 300px;
+article#post01 #agregado01 .imagem {
+  width: 300px;
+  height: 300px;
 }
 
 aside#navigate ul {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-
-aside#navigate ul a.navi{
-    display: flex;
-    color: black;
-    text-decoration: none;
-    justify-content: center;
+aside#navigate ul a.navi {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
 }
 
-
-aside#navigate ul a.navi li:hover{
-    color: blue;
+aside#navigate ul a.navi li:hover {
+  color: blue;
 }
 
-div#link ul a{
-    display: flex;
-    list-style: none;
-    justify-content: center;
+div#link ul a {
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
-div#link ul a:hover{
-    color: blue;
+div#link ul a:hover {
+  color: blue;
 }
 
-div#link ul a{
-    color: black;
-    text-decoration: none;
+div#link ul a {
+  color: black;
+  text-decoration: none;
 }
 
-#first{
-    display: flex;
+#first {
+  display: flex;
 }
 
-section#store{
-    width: 80%;
+section#store {
+  width: 80%;
 }
 
-section#video-navigate{
-    margin-left: 20px;
-    width: 20%;
+section#video-navigate {
+  margin-left: 20px;
+  width: 20%;
 }
 
-div.post-main{
-    padding: 10px;
+div.post-main {
+  padding: 10px;
 }
 
-section#video-navigate #video{
-    margin-bottom: 20px;
-    border: 1px solid black;
+section#video-navigate #video {
+  margin-bottom: 20px;
+  border: 1px solid black;
 }
-section#video-navigate .quadros-gray{
-    border:1px solid black;
-}
-
-article#post02{
-    display: flex;
-    flex-direction: column;
+section#video-navigate .quadros-gray {
+  border: 1px solid black;
 }
 
-article#post02 #manga p{
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+article#post02 {
+  display: flex;
+  flex-direction: column;
 }
 
-article#post02 #manga #imgmanga .figura img{
-    width: 100%;
-    height: 100%;
+article#post02 #manga p {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
-article#post02 #manga #imgmanga .figura{
-    width: 200px;
-    height: 200px;
-    padding-top: 20px;
+article#post02 #manga #imgmanga .figura img {
+  width: 100%;
+  height: 100%;
 }
 
-article#post02 #manga #imgmanga{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+article#post02 #manga #imgmanga .figura {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
 }
 
-#manga{
-    display: flex;
-    flex-direction: column;
+article#post02 #manga #imgmanga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-section#first{
-    border: 1px solid black;
+#manga {
+  display: flex;
+  flex-direction: column;
 }
 
-article#post01{
-    border:1px solid black;
+article#post01 {
+  border: 1px solid black;
 }
 
-article#post02{
-    border:1px solid black;
+article#post02 {
+  border: 1px solid black;
 }
 
-section#rank-eventos div.top10-animes{
-    padding-left: 20px;
-    background-color: #eeeeee;
+section#rank-eventos div.top10-animes {
+  padding-left: 20px;
+  background-color: #eeeeee;
 }
 
-section#rank-eventos{
-    border:1px solid black;
+section#rank-eventos {
+  border: 1px solid black;
 }
 
-section#rank-eventos a{
-    color: black;
-    margin-left: 10px;
+section#rank-eventos a {
+  color: black;
+  margin-left: 10px;
+}
+
+ul.info {
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 20px;
+}
+
+main div#botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+main div#botao a {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+
+main div#botao a:first-child {
+  margin-right: 100px;
+}
+
+main div#agregado01 {
+  display: flex;
 }
 
 /* Section - First - Fim*/
 
-
 /* Section - Últimas Avaliações - Início */
 
 #ultimas-avaliacoes {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 #ultimas-avaliacoes h2 {
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 #ultimas-avaliacoes #avaliacoes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #ultimas-avaliacoes #avaliacoes .card-avaliacao {
-    width: 25%;
-    padding: 20px;
-    margin-right: 40px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 25%;
+  padding: 20px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes figure {
-    margin-right: 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes figure img {
-    display: inline-block;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes h3 {
-    text-align: center;
+  text-align: center;
 }
 
 #ultimas-avaliacoes .card-avaliacao .avaliacao {
-    hyphens: auto;
-    margin-bottom: 20px;
-    text-align: justify;
+  hyphens: auto;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 #ultimas-avaliacoes .card-avaliacao .nota-data {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #ultimas-avaliacoes .card-avaliacao .nota-data .nota,
 #ultimas-avaliacoes .card-avaliacao .nota-data .data {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #ultimas-avaliacoes .card-avaliacao .nota-data .nota span {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #ultimas-avaliacoes #botao-carregar-avaliacoes {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 40px;
-    padding-right: 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+  padding-right: 128px;
 }
 
 #ultimas-avaliacoes #botao-carregar-avaliacoes button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-weight: 700;
-    padding: 10px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: rgba(255, 166, 0, 0.563);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgba(255, 166, 0, 0.563);
 }
 
 /* Section - Últimas Avaliações - Fim */
 
-
 /* Section - Novidades e Sobre - Início */
 
 #novidades-sobre {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 #novidades {
-    border: 1px solid black;
-    width: 50%;
+  border: 1px solid black;
+  width: 50%;
 }
 
 #novidades h2 {
-    background-color: #eeeeee;
-    padding-left: 20px;
+  background-color: #eeeeee;
+  padding-left: 20px;
 }
 
 #novidades .novidade {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 #novidades .novidade .imagem-novidades {
-    width: 200px;
-    height: 100px;
+  width: 200px;
+  height: 100px;
 }
 
 #novidades .novidade .imagem-novidades img {
-    width: 200px;
-    height: 100px;
+  width: 200px;
+  height: 100px;
 }
 
 #novidades .novidade p {
-    padding-left: 20px;
-    text-align: justify;
+  padding-left: 20px;
+  text-align: justify;
 }
 
 #novidades .novidade p a {
-    color: black;
-    text-decoration: none;
-    list-style: none;
+  color: black;
+  text-decoration: none;
+  list-style: none;
 }
 
 #novidades .novidade p a:hover {
-    color: blue;
+  color: blue;
 }
-
 
 #sobre-editorial-social {
-    width: 50%;
-    border: 1px solid black;
+  width: 50%;
+  border: 1px solid black;
 }
- 
+
 #sobre-editorial-social #sobre h2,
 #sobre-editorial-social #editorial h2,
 #sobre-editorial-social #redes-sociais h2 {
-    padding-left: 20px;
-    background-color: #eeeeee;
+  padding-left: 20px;
+  background-color: #eeeeee;
 }
 
 #sobre-editorial-social #sobre p,
 #sobre-editorial-social #editorial #conteudo-editorial {
-    padding: 20px;
+  padding: 20px;
 }
 
 #sobre-editorial-social #redes-sociais ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
 }
 
 #sobre-editorial-social #redes-sociais ul img {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 /* Section - Novidades e Sobre - Fim */
 
-
 /* Section - Rank e Eventos - Início */
 
 #rank-eventos {
-    margin-top: 40px;
-    padding: 0 0 40px;
-    border: 1px solid black;
+  margin-top: 40px;
+  padding: 0 0 40px;
+  border: 1px solid black;
 }
 
 #rank-eventos h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #rank-eventos #conteudo {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #rank-eventos #rank-animes,
 #rank-eventos #rank-mangas {
-    padding: 40px;
+  padding: 40px;
 }
 
 #rank-eventos #rank-animes h2,
 #rank-eventos #rank-mangas h2 {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #rank-eventos #rank-animes hr,
 #rank-eventos #rank-mangas hr {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 #rank-eventos #rank-animes .anime-rank,
 #rank-eventos #rank-mangas .manga-rank {
-    cursor: pointer;
-    width: 300px;
-    height: auto;
-    max-height: 300px;
+  cursor: pointer;
+  width: 300px;
+  height: auto;
+  max-height: 300px;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank,
 #rank-eventos #rank-mangas .manga-rank .imagem-rank {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank img,
 #rank-eventos #rank-mangas .manga-rank .imagem-rank img {
-    display: inline-block;
-    min-width: 100%;
-    max-width: 100%;
+  display: inline-block;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
 #rank-eventos #rank-mangas .manga-rank .imagem-rank figcaption {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 
-    width: 100%;
-    color: white;
-    padding: 5px;
-    margin: 0 !important;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: rgba(128, 128, 128, 0.8);
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
-#rank-eventos #rank-animes .anime-rank .descricao-rank {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+section#eventos .evento {
+  border: 1px solid black;
 }
 
-section#eventos .evento{
-    border: 1px solid black;
-}
-
-
-section#eventos .evento:nth-child(2){
-    order: 1;
-    border: 1px solid black;
-}
-
-section#eventos h3{
-    display: flex;
-    padding-left: 20px;
-    background-color: #eeeeee;
-    justify-content: center;
-}
-
-section#eventos{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
+section#eventos {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
 
 section#eventos .evento .imagem-eventos figcaption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    padding: 5px;
-    margin: 0 !important;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: rgba(128, 128, 128, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
-section#eventos .evento .imagem-eventos{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+section#eventos .evento .imagem-eventos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-section#eventos .evento p{
-    padding: 15px;
+section#eventos .evento p {
+  text-align: justify;
+  padding: 15px;
 }
 
-section#eventos .evento .imagem-eventos img{
-    width: 100%;
-    height: 100%;
+section#eventos .evento .imagem-eventos img {
+  width: 100%;
+  height: 100%;
 }
 
 /* Section - Rank-Eventos - Fim */
 
 @media screen and ((max-width: 1010px)) {
-    /* Section First - Act fig, mangás, social, navegação */
-    #first{
-        display: flex;
-        flex-direction: column;
-    }
+  /* Section First - Act fig, mangás, social, navegação */
+  #first {
+    display: flex;
+    flex-direction: column;
+  }
 
-    section#store{
-        width: 100%;
-    }
+  section#store {
+    width: 100%;
+  }
 
-    main div#agregado01{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  main div#agregado01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    main article#post01 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
-    main article#post02 h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
+  main article#post01 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    main aside#navigate h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    main section#video h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    
-    article#post02 #manga #imgmanga{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
+  main article#post02 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    section#video-navigate{
-        margin-left: 0px;
-        width: 100%;
-    }
+  main aside#navigate h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    section#video-navigate #video{
-        margin-bottom: 20px;
-        
-    }
+  main section#video h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    article#post01{
-        margin-bottom: 20px;
-    }
+  article#post02 #manga #imgmanga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 
-    article#post02{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
+  section#video-navigate {
+    margin-left: 0px;
+    width: 100%;
+  }
 
-    main div#botao a:first-child{
-        margin-right: 50px;
-    
-    }
+  section#video-navigate #video {
+    margin-bottom: 20px;
+  }
 
+  article#post01 {
+    margin-bottom: 20px;
+  }
+
+  article#post02 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  main div#botao a:first-child {
+    margin-right: 50px;
+  }
+
+  iframe {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 475px) {
-   
-    article#post01 #agregado01 .imagem{
-        width: 200px;
-        height: 200px;
-    }
+  article#post01 #agregado01 .imagem {
+    width: 200px;
+    height: 200px;
+  }
 
-    main div#botao a:first-child{
-        margin-right: 25px;
-    
-    }
-    
+  main div#botao a:first-child {
+    margin-right: 25px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    div#agregado01 ul.info li{
-        font-size: 12px;
-    }
+  div#agregado01 ul.info li {
+    font-size: 12px;
+  }
 
-    main article#post01 h2{
-        font-size: medium;
-    
-    }
-    
-    main article#post02 h2{
-        font-size: medium;
-    
-    }
+  main article#post01 h2 {
+    font-size: medium;
+  }
 
-    main aside#navigate h2{
-        font-size: medium;
-    }
-    
-    main section#video h2{
-        font-size: medium;
-    }
-    
-    article#post02 #manga p{
-        padding-top: 80px;
-        
-    }
-    
-    article#post02 #manga #imgmanga{
-        gap: 80px;
-    }
-    
+  main article#post02 h2 {
+    font-size: medium;
+  }
 
-    article#post02 #manga #imgmanga .figura{
-        width: 100px;
-        height: 100px;
-        
-    }
-    
-    article#post01 #agregado01 .imagem{
-        width: 100px;
-        height: 100px;
-    }
-    
-    main div#botao a:first-child{
-        margin-right: 5px;
-    
-    }
+  main aside#navigate h2 {
+    font-size: medium;
+  }
 
-    main div#botao{
-        font-weight: 300;
-        
-    }
+  main section#video h2 {
+    font-size: medium;
+  }
 
-    main div#botao a{
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-        
-    }
+  article#post02 #manga p {
+    padding-top: 80px;
+  }
+
+  article#post02 #manga #imgmanga {
+    gap: 80px;
+  }
+
+  article#post02 #manga #imgmanga .figura {
+    width: 100px;
+    height: 100px;
+  }
+
+  article#post01 #agregado01 .imagem {
+    width: 100px;
+    height: 100px;
+  }
+
+  main div#botao a:first-child {
+    margin-right: 5px;
+  }
+
+  main div#botao {
+    font-weight: 300;
+  }
+
+  main div#botao a {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 300px) {
-    article#post02 #manga #imgmanga .figura{
-        width: 80px;
-        height: 80px;
-        
-    }
+  article#post02 #manga #imgmanga .figura {
+    width: 80px;
+    height: 80px;
+  }
 
-    article#post01 #agregado01 .imagem{
-        width: 80px;
-        height: 80px;
-    }
+  article#post01 #agregado01 .imagem {
+    width: 80px;
+    height: 80px;
+  }
 
-    main div#botao a:first-child{
-        margin-right: 0px;
-        margin-bottom: 5px;
-    
-    }
-    
-    main div#botao{
-        font-weight: 150;
-        font-size: small;
-        flex-direction: column;
-        
-    }
+  main div#botao a:first-child {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
 
-    main div#botao a{
-        padding: 1px;
-        width: 80px;
-        align-items: center;
-        
-    }
+  main div#botao {
+    font-weight: 150;
+    font-size: small;
+    flex-direction: column;
+  }
 
-    article ul.info{
-        margin-left: 20px;
-    }
+  main div#botao a {
+    padding: 1px;
+    width: 80px;
+    align-items: center;
+  }
 
-    div#agregado01 ul.info li{
-        font-size: 11px;
-    }
+  div#agregado01 ul.info li {
+    font-size: 11px;
+  }
 
-    main article#post01 h2{
-        font-size: medium;
-    
-    }
-    
-    main article#post02 h2{
-        font-size: medium;
-    
-    }
+  main article#post01 h2 {
+    font-size: medium;
+  }
 
-    main aside#navigate h2{
-        font-size: medium;
-    }
-    
-    main section#video h2{
-        font-size: medium;
-    }
+  main article#post02 h2 {
+    font-size: medium;
+  }
+
+  main aside#navigate h2 {
+    font-size: medium;
+  }
+
+  main section#video h2 {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    /* Últimas Avaliações */
+  /* Últimas Avaliações */
 
-    #ultimas-avaliacoes h2 {
-        font-size: 1.4rem;
-    }
-    
-    #ultimas-avaliacoes #avaliacoes {
-        flex-direction: column;
-    }
-    
-    #ultimas-avaliacoes #avaliacoes .card-avaliacao {
-        width: 90%;
-        padding: 20px;
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-    
-    #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
-        margin-bottom: 0;
-    }
-    
-    #ultimas-avaliacoes #botao-carregar-avaliacoes {
-        justify-content: center;
-        padding-right: 0;
-    }
-    
-    #ultimas-avaliacoes #botao-carregar-avaliacoes button {
-        width: 90%;
-    }
+  #ultimas-avaliacoes h2 {
+    font-size: 1.4rem;
+  }
+
+  #ultimas-avaliacoes #avaliacoes {
+    flex-direction: column;
+  }
+
+  #ultimas-avaliacoes #avaliacoes .card-avaliacao {
+    width: 90%;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
+    margin-bottom: 0;
+  }
+
+  #ultimas-avaliacoes #botao-carregar-avaliacoes {
+    justify-content: center;
+    padding-right: 0;
+  }
+
+  #ultimas-avaliacoes #botao-carregar-avaliacoes button {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 960px) {
-    /* Cards */
+  /* Cards */
 
-    main #cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-    }
+  main #cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
 
-    main #cards article {
-        width: 100%;
-        height: 260px;
-    }
+  main #cards article {
+    width: 100%;
+    height: 260px;
+  }
 
-    main #cards article p {
-        text-indent: 0;
-    }
+  main #cards article p {
+    text-indent: 0;
+  }
 
-    /* Assinar Newsletter */
+  /* Assinar Newsletter */
 
-    main #assinar-newsletter h2 {
-        font-size: 1.4rem;
-    }
-    
-    main #assinar-newsletter form {
-        width: 90%;
-    }
+  main #assinar-newsletter h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
 
-    main #assinar-newsletter form button {
-        width: 100%;
-    }
+  main #assinar-newsletter form {
+    width: 100%;
+  }
+
+  main #assinar-newsletter form button {
+    width: 100%;
+  }
 }
 
 @media screen and ((max-width: 1020px)) {
-    /* Section novidades - sobre  */
-    #novidades-sobre {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+  /* Section novidades - sobre  */
+  #novidades-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-    #novidades {
-        width: 100%;
-    }
+  #novidades {
+    width: 100%;
+  }
 
-    #sobre-editorial-social {
-        width: 100%;
-        
-    }
+  #sobre-editorial-social {
+    width: 100%;
+  }
 
-    #novidades h2 {
-        display: flex;
-        padding-left: 0px;
-        justify-content: center;
-        align-items: center;
-    }
+  #novidades h2 {
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #sobre-editorial-social #sobre h2,
-    #sobre-editorial-social #editorial h2,
-    #sobre-editorial-social #redes-sociais h2 {
-        display: flex;
-        padding-left: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-    
+  #sobre-editorial-social #sobre h2,
+  #sobre-editorial-social #editorial h2,
+  #sobre-editorial-social #redes-sociais h2 {
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Section Rank - Eventos  */
+
+  #rank-eventos #conteudo {
+    flex-direction: column;
+  }
+
+  #rank-eventos #rank-animes,
+  #rank-eventos #rank-mangas {
+    padding: 0;
+  }
+
+  #rank-eventos #rank-animes .anime-rank,
+  #rank-eventos #rank-mangas .manga-rank {
+    width: 100%;
+  }
+
+  #rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
+  #rank-eventos #rank-mangas .manga-rank .imagem-rank figcaption {
+    font-size: 16px;
+  }
+
+  section#eventos .evento .imagem-eventos figcaption {
+    font-size: 16px;
+  }
+
+  section#eventos .evento .imagem-eventos img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and ((max-width: 558px)) {
-    #novidades .novidade p {
-        font-size: 12px;
-    }
+  /* Section novidades - sobre  */
+  #novidades .novidade p {
+    font-size: 12px;
+  }
 
-    #sobre-editorial-social #sobre p,
-    #sobre-editorial-social #editorial #conteudo-editorial {
-        font-size: 12px;
-    }
+  #sobre-editorial-social #sobre p,
+  #sobre-editorial-social #editorial #conteudo-editorial {
+    font-size: 12px;
+  }
 
-    #novidades .novidade .imagem-novidades {
-        width: 110px;
-        height: 80px;
-    }
-    
-    #novidades .novidade .imagem-novidades img {
-        width: 110px;
-        height: 80px;
-    }
+  #novidades .novidade .imagem-novidades {
+    width: 110px;
+    height: 80px;
+  }
+
+  #novidades .novidade .imagem-novidades img {
+    width: 110px;
+    height: 80px;
+  }
 }
 
 @media screen and ((max-width: 474px)) {
-    #novidades h2 {
-        font-size: medium;
-    }
+  /* Section Últimas Avaliações  */
+  #ultimas-avaliacoes .card-avaliacao .informacoes {
+    flex-direction: column;
+  }
 
-    #sobre-editorial-social #sobre h2,
-    #sobre-editorial-social #editorial h2,
-    #sobre-editorial-social #redes-sociais h2 {
-        font-size: medium;
-    }
-    
-    #novidades .novidade {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+  #ultimas-avaliacoes .card-avaliacao .informacoes h3 {
+    margin-top: 20px;
+  }
 
-    #novidades .novidade .imagem-novidades {
-        width: 100px;
-        height: 70px;
-    }
-    
-    #novidades .novidade .imagem-novidades img {
-        width: 100px;
-        height: 70px;
-    }
+  #ultimas-avaliacoes .card-avaliacao .informacoes figure {
+    margin-right: 0;
+  }
 
-    #sobre-editorial-social #redes-sociais ul img {
-        width: 60px;
-        height: 60px;
-    }
+  #ultimas-avaliacoes .card-avaliacao .nota-data {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ultimas-avaliacoes .card-avaliacao .nota-data .data {
+    margin-top: 20px;
+  }
+
+  /* Section novidades - sobre  */
+  #novidades h2 {
+    font-size: medium;
+  }
+
+  #sobre-editorial-social #sobre h2,
+  #sobre-editorial-social #editorial h2,
+  #sobre-editorial-social #redes-sociais h2 {
+    font-size: medium;
+  }
+
+  #novidades .novidade {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #novidades .novidade p {
+    padding-left: 0;
+  }
+
+  #novidades .novidade .imagem-novidades {
+    width: 100px;
+    height: 70px;
+  }
+
+  #novidades .novidade .imagem-novidades img {
+    width: 100px;
+    height: 70px;
+  }
+
+  #sobre-editorial-social #redes-sociais ul img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media screen and ((max-width: 350px)) {
+  /* Section novidades - sobre  */
+  #novidades .novidade p {
+    padding-left: 0px;
+  }
 
-    #novidades .novidade p {
-        padding-left: 0px;
-        
-    }
-    
-
-    #sobre-editorial-social #redes-sociais ul img {
-        width: 40px;
-        height: 40px;
-    }
+  #sobre-editorial-social #redes-sociais ul img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and ((max-width: 285px)) {
-    #sobre-editorial-social #redes-sociais ul img {
-        width: 30px;
-        height: 30px;
-    }
+  /* Section novidades - sobre  */
+  #sobre-editorial-social #redes-sociais ul img {
+    width: 30px;
+    height: 30px;
+  }
 
-    #novidades .novidade .imagem-novidades {
-        width: 70px;
-        height: 40px;
-    }
-    
-    #novidades .novidade .imagem-novidades img {
-        width: 70px;
-        height: 40px;
-    }
+  #novidades .novidade .imagem-novidades {
+    width: 70px;
+    height: 40px;
+  }
 
-    #novidades .novidade p {
-        font-size: 10px;
-    }
+  #novidades .novidade .imagem-novidades img {
+    width: 70px;
+    height: 40px;
+  }
 
-    #sobre-editorial-social #sobre p,
-    #sobre-editorial-social #editorial #conteudo-editorial {
-        font-size: 10px;
-    }
+  #novidades .novidade p {
+    font-size: 10px;
+  }
+
+  #sobre-editorial-social #sobre p,
+  #sobre-editorial-social #editorial #conteudo-editorial {
+    font-size: 10px;
+  }
 }

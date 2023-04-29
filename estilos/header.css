@@ -200,37 +200,49 @@ header #navegacao-busca #busca .icone-busca {
         text-align: center;
     }
     
+
     header #navegacao-busca {
-        position: relative;
-        padding: 10px 20px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
     }
     
     header #navegacao-busca nav {
         width: 100%;
+        margin-bottom: 20px;
+        background-color: rgba(255, 166, 0, 0.563);
+        border: 1px solid black;
     }
-    
-    /* header #navegacao-busca nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-    } */
+
+    header #navegacao-busca nav ul {
+        flex-direction: column;
+        justify-content: center;
+    }    
+
+    header #navegacao-busca nav a {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid black;
+    }  
+
+    header #navegacao-busca nav a:last-child {
+        border-bottom: none;
+    }  
     
     header #navegacao-busca #busca {
-        display: none;
-        position: absolute;
-        top: 40px;
-        /* display: flex; */
         flex-direction: row;
         align-items: center;
-        width: 15%;
-        margin-left: 20px;
+        min-width: 100%;
+        margin-left: 0;
+        border: 1px solid black;
     }
     
     header #navegacao-busca #busca input[type="text"] {
         padding: 5px 30px 5px 5px;
-        width: 100%;
+        min-width: 100%;
     }
     
     header #navegacao-busca #busca .icone-busca {
