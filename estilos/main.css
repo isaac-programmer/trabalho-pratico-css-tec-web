@@ -825,7 +825,7 @@ section#eventos .evento .imagem-eventos img {
   }
 
   #ultimas-avaliacoes #avaliacoes .card-avaliacao {
-    width: 90%;
+    width: 100%;
     padding: 20px;
     margin-right: 0;
     margin-bottom: 40px;
@@ -841,7 +841,7 @@ section#eventos .evento .imagem-eventos img {
   }
 
   #ultimas-avaliacoes #botao-carregar-avaliacoes button {
-    width: 90%;
+    width: 100%;
   }
 }
 

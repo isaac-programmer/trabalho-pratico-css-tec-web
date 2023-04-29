@@ -1,258 +1,248 @@
 header #informacoes {
-    display: flex;
-    margin-bottom: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
 header #informacoes figure {
-    width: 80px;
-    height: 80px;
-    margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
 }
 
 header #informacoes figure img {
-    max-width: 100%;
-    max-height: 100%;
-    margin-right: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20px;
 }
 
 header #informacoes #conjunto {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 header #informacoes #conjunto #titulo-descricao,
 header #informacoes #conjunto #linguagens-links {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 header #informacoes #conjunto #titulo-descricao h3 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 header #informacoes #conjunto #linguagens-links #linguagens,
 header #informacoes #conjunto #linguagens-links #links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 header #informacoes #conjunto #linguagens a {
-    color: white;
-    display: inline-block;
-    padding: 5px;
-    margin-right: 5px;
-    background-color: rgba(255, 166, 0, 0.563);
-    text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: rgba(255, 166, 0, 0.563);
+  text-decoration: none;
 }
 
 header #informacoes #conjunto #linguagens a:hover {
-    color: black;
+  color: black;
 }
 
 header #informacoes #conjunto #linguagens-links #links {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 header #informacoes #conjunto #links span {
-    display: inline-block;
-    padding: 0 5px;
+  display: inline-block;
+  padding: 0 5px;
 }
 
 header #informacoes #conjunto #links a {
-    color: black;
-    display: inline-block;
-    padding: 5px;
-    text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
 }
 
 header #informacoes #conjunto #links a:hover {
-    color: rgba(255, 166, 0, 0.563);
+  color: rgba(255, 166, 0, 0.563);
 }
 
 header #informacoes #conjunto #linguagens a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 header #navegacao-busca {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
-    background-color: rgba(255, 166, 0, 0.563);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgba(255, 166, 0, 0.563);
 }
 
 header #navegacao-busca nav {
-    width: 75%;
+  width: 75%;
 }
 
 header #navegacao-busca nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header ul a {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 header ul a:hover {
-    color: black;
+  color: black;
 }
 
 header #navegacao-busca #busca {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 15%;
-    margin-left: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15%;
+  margin-left: 20px;
+}
+
+header #navegacao-busca #busca form {
+  width: 100%;
 }
 
 header #navegacao-busca #busca input[type="text"] {
-    padding: 5px 30px 5px 5px;
-    width: 100%;
+  padding: 5px 30px 5px 5px;
+  width: 100%;
 }
 
 header #navegacao-busca #busca .icone-busca {
-    cursor: pointer;
-    position: absolute;
-    top: 55%;
-    right: 5px;
-    transform: translateY(-50%);
-    background-color: transparent;
-    border: none;
-    outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  right: 5px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 /* Media Queries - Header - Início */
 
 @media screen and (max-width: 960px) {
-    header #informacoes {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    
-    header #informacoes figure {
-        width: 30%;
-        height: auto;
-        margin-right: 0;
-        margin-bottom: 30px;
-    }
-    
-    header #informacoes figure img {
-        min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        max-height: 100%;
-        margin-right: 0;
-    }
-    
-    header #informacoes #conjunto {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    header #informacoes #conjunto #titulo-descricao,
-    header #informacoes #conjunto #linguagens-links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  header #informacoes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
 
-    header #informacoes #conjunto #titulo-descricao {
-        margin-bottom: 40px;
-    }
+  header #informacoes figure {
+    width: 30%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 
-    header #informacoes #conjunto #titulo-descricao h1 {
-        font-size: 1.8rem;
-        text-align: center;
-    }
+  header #informacoes figure img {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin-right: 0;
+  }
 
-    header #informacoes #conjunto #titulo-descricao h3 {
-        font-size: 1rem;
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    header #informacoes #conjunto #linguagens-links #linguagens,
-    header #informacoes #conjunto #linguagens-links #links {
-        justify-content: center;
-        align-items: center;
-    }
-    
-    header #informacoes #conjunto #linguagens-links #links {
-        margin-top: 20px;
-    }
-    
-    header #informacoes #conjunto #links a {
-        padding: 0;
-        text-align: center;
-    }
-    
+  header #informacoes #conjunto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    header #navegacao-busca {
-        padding: 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: transparent;
-    }
-    
-    header #navegacao-busca nav {
-        width: 100%;
-        margin-bottom: 20px;
-        background-color: rgba(255, 166, 0, 0.563);
-        border: 1px solid black;
-    }
+  header #informacoes #conjunto #titulo-descricao,
+  header #informacoes #conjunto #linguagens-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    header #navegacao-busca nav ul {
-        flex-direction: column;
-        justify-content: center;
-    }    
+  header #informacoes #conjunto #titulo-descricao {
+    margin-bottom: 40px;
+  }
 
-    header #navegacao-busca nav a {
-        width: 100%;
-        text-align: center;
-        padding: 20px 0;
-        border-bottom: 1px solid black;
-    }  
+  header #informacoes #conjunto #titulo-descricao h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 
-    header #navegacao-busca nav a:last-child {
-        border-bottom: none;
-    }  
-    
-    header #navegacao-busca #busca {
-        flex-direction: row;
-        align-items: center;
-        min-width: 100%;
-        margin-left: 0;
-        border: 1px solid black;
-    }
-    
-    header #navegacao-busca #busca input[type="text"] {
-        padding: 5px 30px 5px 5px;
-        min-width: 100%;
-    }
-    
-    header #navegacao-busca #busca .icone-busca {
-        cursor: pointer;
-        position: absolute;
-        top: 55%;
-        right: 5px;
-        transform: translateY(-50%);
-        background-color: transparent;
-        border: none;
-        outline: none;
-    }
+  header #informacoes #conjunto #titulo-descricao h3 {
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  header #informacoes #conjunto #linguagens-links #linguagens,
+  header #informacoes #conjunto #linguagens-links #links {
+    justify-content: center;
+    align-items: center;
+  }
+
+  header #informacoes #conjunto #linguagens-links #links {
+    margin-top: 20px;
+  }
+
+  header #informacoes #conjunto #links a {
+    padding: 0;
+    text-align: center;
+  }
+
+  header #navegacao-busca {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  header #navegacao-busca nav {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 166, 0, 0.563);
+    border: 1px solid black;
+  }
+
+  header #navegacao-busca nav ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header #navegacao-busca nav a {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+  }
+
+  header #navegacao-busca nav a:last-child {
+    border-bottom: none;
+  }
+
+  header #navegacao-busca #busca {
+    flex-direction: row;
+    align-items: center;
+    min-width: 100%;
+    margin-left: 0;
+  }
+
+  header #navegacao-busca #busca form {
+    width: 100%;
+  }
 }
