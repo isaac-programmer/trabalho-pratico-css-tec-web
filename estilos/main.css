@@ -755,6 +755,10 @@ section#eventos .evento .imagem-eventos img{
 }
 
 @media screen and (max-width: 375px) {
+    div#agregado01 ul.info li{
+        font-size: 12px;
+    }
+
     main article#post01 h2{
         font-size: medium;
     
