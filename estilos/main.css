@@ -122,6 +122,7 @@ main #assinar-newsletter form button {
 /* Section - First - Início*/
 
 main article#post01 h2 {
+  text-align: center;
   padding: 20px;
   border: 1px solid black;
   background-color: rgba(255, 166, 0, 0.563);
@@ -129,6 +130,7 @@ main article#post01 h2 {
 
 main article#post02 h2 {
   padding: 20px;
+  text-align: center;
   border: 1px solid black;
   background-color: rgba(255, 166, 0, 0.563);
 }
@@ -253,9 +255,23 @@ article#post02 #manga #imgmanga .figura img {
 }
 
 article#post02 #manga #imgmanga .figura {
+  position: relative;
   width: 200px;
   height: 200px;
   padding-top: 20px;
+}
+
+article#post02 #manga #imgmanga .figura figcaption{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
 article#post02 #manga #imgmanga {
@@ -506,7 +522,7 @@ main div#agregado01 {
 #sobre-editorial-social #redes-sociais ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -654,6 +670,10 @@ section#eventos .evento .imagem-eventos img {
     align-items: center;
   }
 
+  article#post01 #agregado01 .imagem{
+    padding-top: 20px;
+  }
+
   main article#post01 h2 {
     display: flex;
     justify-content: center;
@@ -738,18 +758,15 @@ section#eventos .evento .imagem-eventos img {
     padding-top: 80px;
   }
 
-  article#post02 #manga #imgmanga {
-    gap: 80px;
-  }
 
   article#post02 #manga #imgmanga .figura {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 170px;
   }
 
   article#post01 #agregado01 .imagem {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 170px;
   }
 
   main div#botao a:first-child {
@@ -769,13 +786,13 @@ section#eventos .evento .imagem-eventos img {
 
 @media screen and (max-width: 300px) {
   article#post02 #manga #imgmanga .figura {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 150px;
   }
 
   article#post01 #agregado01 .imagem {
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 150px;
   }
 
   main div#botao a:first-child {
@@ -901,7 +918,6 @@ section#eventos .evento .imagem-eventos img {
 
   #novidades h2 {
     display: flex;
-    padding-left: 0px;
     justify-content: center;
     align-items: center;
   }
@@ -910,7 +926,6 @@ section#eventos .evento .imagem-eventos img {
   #sobre-editorial-social #editorial h2,
   #sobre-editorial-social #redes-sociais h2 {
     display: flex;
-    padding-left: 0px;
     justify-content: center;
     align-items: center;
   }
@@ -1023,13 +1038,13 @@ section#eventos .evento .imagem-eventos img {
   }
 
   #novidades .novidade .imagem-novidades {
-    width: 100px;
-    height: 70px;
+    width: 160px;
+    height: 120px;
   }
 
   #novidades .novidade .imagem-novidades img {
-    width: 100px;
-    height: 70px;
+    width: 160px;
+    height: 120px;
   }
 
   #sobre-editorial-social #redes-sociais ul img {
@@ -1058,13 +1073,13 @@ section#eventos .evento .imagem-eventos img {
   }
 
   #novidades .novidade .imagem-novidades {
-    width: 70px;
-    height: 40px;
+    width: 120px;
+    height: 90px;
   }
 
   #novidades .novidade .imagem-novidades img {
-    width: 70px;
-    height: 40px;
+    width: 120px;
+    height: 90px;
   }
 
   #novidades .novidade p {
