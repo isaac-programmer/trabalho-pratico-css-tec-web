@@ -122,25 +122,33 @@ main #assinar-newsletter form button {
 /* Section - First - Início*/
 
 main article#post01 h2 {
+  padding: 20px;
   border: 1px solid black;
   background-color: rgba(255, 166, 0, 0.563);
 }
 
 main article#post02 h2 {
+  padding: 20px;
   border: 1px solid black;
   background-color: rgba(255, 166, 0, 0.563);
 }
 
 main aside#navigate h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
   border: 1px solid black;
   background-color: gray;
-  padding: 5px;
+  
 }
 
 main section#video h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
   border: 1px solid black;
   background-color: gray;
-  padding: 5px;
+  
 }
 
 aside ul a {
@@ -157,6 +165,7 @@ article ul.info {
 
 div#agregado01 ul.info li {
   font-size: 20px;
+  text-align: justify;
 }
 
 article#post01 #agregado01 .imagem img {
@@ -235,6 +244,7 @@ article#post02 #manga p {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
+  text-align: justify;
 }
 
 article#post02 #manga #imgmanga .figura img {
@@ -441,7 +451,7 @@ main div#agregado01 {
 
 #novidades h2 {
   background-color: #eeeeee;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 #novidades .novidade {
@@ -483,13 +493,14 @@ main div#agregado01 {
 #sobre-editorial-social #sobre h2,
 #sobre-editorial-social #editorial h2,
 #sobre-editorial-social #redes-sociais h2 {
-  padding-left: 20px;
+  padding: 20px;
   background-color: #eeeeee;
 }
 
 #sobre-editorial-social #sobre p,
 #sobre-editorial-social #editorial #conteudo-editorial {
   padding: 20px;
+  text-align: justify;
 }
 
 #sobre-editorial-social #redes-sociais ul {
@@ -646,18 +657,6 @@ section#eventos .evento .imagem-eventos img {
   }
 
   main article#post02 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main aside#navigate h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main section#video h2 {
     display: flex;
     justify-content: center;
     align-items: center;
