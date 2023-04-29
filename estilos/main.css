@@ -209,17 +209,21 @@ article#post01 #agregado01 .imagem{
     height: 300px;
 }
 
+aside#navigate ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-aside ul a.navi{
+
+aside#navigate ul a.navi{
+    display: flex;
     color: black;
     text-decoration: none;
+    justify-content: center;
 }
 
-aside ul a.navi li{
-    padding-left: 20px;
-}
 
-aside ul a.navi li:hover{
+aside#navigate ul a.navi li:hover{
     color: blue;
 }
 
@@ -287,18 +291,14 @@ article#post02 #manga #imgmanga .figura{
 }
 
 article#post02 #manga #imgmanga{
-    gap: 20px;
-}
-
-#imgmanga{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 #manga{
-    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -657,6 +657,69 @@ section#eventos .evento .imagem-eventos img{
 
 /* Section - Rank-Eventos - Fim */
 
+@media screen and (max-width: 1010px) {
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#store{
+        width: 100%;
+    }
+
+    main div#agregado01{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    article#post02 #manga #imgmanga{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    section#video-navigate{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    section#video-navigate #video{
+        margin-bottom: 20px;
+        border: 1px solid black;
+    }
+
+    article#post01{
+        border:1px solid black;
+        margin-bottom: 20px;
+    }
+
+    article#post02{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    main div#botao a:first-child{
+        margin-right: 50px;
+    
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+    article#post01 #agregado01 .imagem{
+        width: 200px;
+        height: 200px;
+    }
+
+    main div#botao a:first-child{
+        margin-right: 25px;
+    
+    }
+}
 
 @media screen and (max-width: 1200px) {
     /* Últimas Avaliações */
