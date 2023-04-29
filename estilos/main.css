@@ -518,6 +518,7 @@ main div#agregado01 {
 
 /* Section - Novidades e Sobre - Fim */
 
+
 /* Section - Rank e Eventos - Início */
 
 #rank-eventos {
@@ -554,8 +555,8 @@ main div#agregado01 {
 #rank-eventos #rank-mangas .manga-rank {
   cursor: pointer;
   width: 300px;
-  height: auto;
-  max-height: 300px;
+  border: 1px solid;
+  overflow: hidden;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank,
@@ -632,6 +633,9 @@ section#eventos .evento .imagem-eventos img {
 }
 
 /* Section - Rank-Eventos - Fim */
+
+
+/* Media Queries */
 
 @media screen and ((max-width: 1010px)) {
   /* Section First - Act fig, mangás, social, navegação */
@@ -917,14 +921,24 @@ section#eventos .evento .imagem-eventos img {
     flex-direction: column;
   }
 
-  #rank-eventos #rank-animes,
-  #rank-eventos #rank-mangas {
+  #rank-eventos #conteudo :nth-child(1) {
+    order: 1;
+    padding: 0;
+  }
+
+  #rank-eventos #conteudo :nth-child(2) {
+    order: 3;
+  }
+
+  #rank-eventos #conteudo :nth-child(3) {
+    order: 2;
     padding: 0;
   }
 
   #rank-eventos #rank-animes .anime-rank,
   #rank-eventos #rank-mangas .manga-rank {
     width: 100%;
+    height: 100%;
   }
 
   #rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
