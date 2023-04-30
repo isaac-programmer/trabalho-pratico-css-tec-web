@@ -122,17 +122,25 @@ header #navegacao-busca #busca form {
 header #navegacao-busca #busca input[type="text"] {
   padding: 5px 30px 5px 5px;
   width: 100%;
+  border: 1px solid black;
 }
 
 header #navegacao-busca #busca .icone-busca {
+  height: 90%;
   cursor: pointer;
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 5px;
   transform: translateY(-50%);
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+header #navegacao-busca #busca .icone-busca img {
+  display: inline-block;
+  width: 24px;
+  height: 100%;
 }
 
 /* Media Queries - Header - Início */
@@ -216,7 +224,7 @@ header #navegacao-busca #busca .icone-busca {
     width: 100%;
     margin-bottom: 20px;
     background-color: rgba(255, 166, 0, 0.563);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 
   header #navegacao-busca nav ul {
@@ -228,7 +236,7 @@ header #navegacao-busca #busca .icone-busca {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
   header #navegacao-busca nav a:last-child {

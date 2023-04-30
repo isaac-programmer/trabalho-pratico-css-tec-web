@@ -12,6 +12,208 @@ main #banner {
 /* Seção - Banner - Fim */
 
 
+/* Section - First - Início*/
+
+#first {
+  display: flex;
+}
+
+section#store {
+  width: 80%;
+}
+
+#first #post01 h2,
+#first #post02 h2 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  background-color: rgba(255, 166, 0, 0.563);
+}
+
+div#agregado01 ul.info li {
+  font-size: 20px;
+  text-align: justify;
+}
+
+article#post01 #agregado01 .imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+article#post01 #agregado01 .imagem {
+  width: 300px;
+  height: 300px;
+}
+
+#post01 #botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#post01 #botao a {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgba(255, 166, 0, 0.563);
+}
+
+#post01 #botao a:first-child {
+  margin-right: 100px;
+}
+
+article#post02 {
+  display: flex;
+  flex-direction: column;
+}
+
+article#post02 #manga p {
+  padding: 20px;
+  text-align: justify;
+}
+
+article#post02 #manga #imgmanga .figura img {
+  width: 100%;
+  height: 100%;
+}
+
+article#post02 #manga #imgmanga .figura {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+}
+
+article#post02 #manga #imgmanga .figura figcaption{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 5px;
+  margin: 0 !important;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+article#post02 #manga #imgmanga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#manga {
+  display: flex;
+  flex-direction: column;
+}
+
+article#post01 {
+  border: 1px solid black;
+}
+
+article#post02 {
+  border: 1px solid black;
+}
+
+#video-navigate {
+  margin-left: 20px;
+  width: 20%;
+}
+
+#video-navigate #video {
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+#video-navigate #navigate {
+  border: 1px solid black;
+}
+
+#first section#video h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  background-color: gray;
+}
+
+#first aside#navigate h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  background-color: gray;
+}
+
+aside ul a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+article ul.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside#navigate ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+aside#navigate ul a.navi {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+}
+
+aside#navigate ul a.navi li:hover {
+  color: blue;
+}
+
+div#link ul a {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+div#link ul a:hover {
+  color: blue;
+}
+
+div#link ul a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.info {
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 20px;
+}
+
+main div#agregado01 {
+  display: flex;
+}
+
+/* Section - First - Fim*/
+
+
 /* Section - Cards - Início */
 
 main #cards {
@@ -54,6 +256,7 @@ main #cards article p {
 
 /* Section - Cards - Fim */
 
+
 /* Section - Assinar Newsletter - Início */
 
 main #assinar-newsletter {
@@ -62,7 +265,6 @@ main #assinar-newsletter {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  padding: 40px 0;
 }
 
 main #assinar-newsletter h2 {
@@ -119,235 +321,11 @@ main #assinar-newsletter form button {
 
 /* Section - Assinar Newsletter - Fim */
 
-/* Section - First - Início*/
-
-main article#post01 h2 {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid black;
-  background-color: rgba(255, 166, 0, 0.563);
-}
-
-main article#post02 h2 {
-  padding: 20px;
-  text-align: center;
-  border: 1px solid black;
-  background-color: rgba(255, 166, 0, 0.563);
-}
-
-main aside#navigate h2 {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  border: 1px solid black;
-  background-color: gray;
-  
-}
-
-main section#video h2 {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  border: 1px solid black;
-  background-color: gray;
-  
-}
-
-aside ul a {
-  color: black;
-  text-decoration: none;
-  list-style: none;
-}
-
-article ul.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-div#agregado01 ul.info li {
-  font-size: 20px;
-  text-align: justify;
-}
-
-article#post01 #agregado01 .imagem img {
-  width: 100%;
-  height: 100%;
-}
-
-article#post01 #agregado01 .imagem {
-  width: 300px;
-  height: 300px;
-}
-
-aside#navigate ul {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-aside#navigate ul a.navi {
-  display: flex;
-  color: black;
-  text-decoration: none;
-  justify-content: center;
-}
-
-aside#navigate ul a.navi li:hover {
-  color: blue;
-}
-
-div#link ul a {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-div#link ul a:hover {
-  color: blue;
-}
-
-div#link ul a {
-  color: black;
-  text-decoration: none;
-}
-
-#first {
-  display: flex;
-}
-
-section#store {
-  width: 80%;
-}
-
-section#video-navigate {
-  margin-left: 20px;
-  width: 20%;
-}
-
-div.post-main {
-  padding: 10px;
-}
-
-section#video-navigate #video {
-  margin-bottom: 20px;
-  border: 1px solid black;
-}
-section#video-navigate .quadros-gray {
-  border: 1px solid black;
-}
-
-article#post02 {
-  display: flex;
-  flex-direction: column;
-}
-
-article#post02 #manga p {
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  text-align: justify;
-}
-
-article#post02 #manga #imgmanga .figura img {
-  width: 100%;
-  height: 100%;
-}
-
-article#post02 #manga #imgmanga .figura {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  padding-top: 20px;
-}
-
-article#post02 #manga #imgmanga .figura figcaption{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  padding: 5px;
-  margin: 0 !important;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: rgba(128, 128, 128, 0.8);
-}
-
-article#post02 #manga #imgmanga {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-#manga {
-  display: flex;
-  flex-direction: column;
-}
-
-article#post01 {
-  border: 1px solid black;
-}
-
-article#post02 {
-  border: 1px solid black;
-}
-
-section#rank-eventos div.top10-animes {
-  padding-left: 20px;
-  background-color: #eeeeee;
-}
-
-section#rank-eventos {
-  border: 1px solid black;
-}
-
-section#rank-eventos a {
-  color: black;
-  margin-left: 10px;
-}
-
-ul.info {
-  list-style-position: inside;
-  list-style-type: square;
-  padding: 20px;
-}
-
-main div#botao {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 20px;
-  color: black;
-  font-weight: 900;
-  text-decoration: none;
-}
-
-main div#botao a {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 10px;
-  color: black;
-}
-
-main div#botao a:first-child {
-  margin-right: 100px;
-}
-
-main div#agregado01 {
-  display: flex;
-}
-
-/* Section - First - Fim*/
 
 /* Section - Últimas Avaliações - Início */
 
 #ultimas-avaliacoes {
-  padding: 40px 0;
+  margin-top: 40px;
 }
 
 #ultimas-avaliacoes h2 {
@@ -452,16 +430,18 @@ main div#agregado01 {
 
 /* Section - Últimas Avaliações - Fim */
 
+
 /* Section - Novidades e Sobre - Início */
 
 #novidades-sobre {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  margin-top: 40px;
+  gap: 40px;
 }
 
 #novidades {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   width: 50%;
 }
 
@@ -503,7 +483,7 @@ main div#agregado01 {
 
 #sobre-editorial-social {
   width: 50%;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #sobre-editorial-social #sobre h2,
@@ -522,7 +502,7 @@ main div#agregado01 {
 #sobre-editorial-social #redes-sociais ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   list-style: none;
 }
@@ -539,8 +519,7 @@ main div#agregado01 {
 
 #rank-eventos {
   margin-top: 40px;
-  padding: 0 0 40px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #rank-eventos h2 {
@@ -550,29 +529,26 @@ main div#agregado01 {
 #rank-eventos #conteudo {
   display: flex;
   flex-direction: row;
-}
-
-#rank-eventos #rank-animes,
-#rank-eventos #rank-mangas {
+  gap: 40px;
   padding: 40px;
 }
 
 #rank-eventos #rank-animes h2,
-#rank-eventos #rank-mangas h2 {
+#rank-eventos #rank-mangas h2,
+#rank-eventos #eventos h2 {
   margin-bottom: 40px;
-}
-
-#rank-eventos #rank-animes hr,
-#rank-eventos #rank-mangas hr {
-  margin: 20px 0;
 }
 
 #rank-eventos #rank-animes .anime-rank,
 #rank-eventos #rank-mangas .manga-rank {
   cursor: pointer;
   width: 300px;
-  border: 1px solid;
-  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+#rank-eventos #rank-animes .anime-rank:last-child,
+#rank-eventos #rank-mangas .manga-rank:last-child {
+  margin-bottom: 0;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank,
@@ -605,20 +581,22 @@ main div#agregado01 {
   background-color: rgba(128, 128, 128, 0.8);
 }
 
-section#eventos .evento {
-  border: 1px solid black;
-}
-
-section#eventos {
+#eventos {
   display: flex;
   flex-direction: column;
-  gap: 60px;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
 }
 
-section#eventos .evento .imagem-eventos figcaption {
+#eventos .evento {
+  margin-bottom: 40px;
+}
+
+#eventos .evento:last-child {
+  margin-bottom: 0;
+}
+
+#eventos .evento .imagem-eventos figcaption {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -631,19 +609,20 @@ section#eventos .evento .imagem-eventos figcaption {
   background-color: rgba(128, 128, 128, 0.8);
 }
 
-section#eventos .evento .imagem-eventos {
+#eventos .evento .imagem-eventos {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-section#eventos .evento p {
-  text-align: justify;
+#eventos .evento p {
   padding: 15px;
+  text-align: justify;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-section#eventos .evento .imagem-eventos img {
+#eventos .evento .imagem-eventos img {
   width: 100%;
   height: 100%;
 }
@@ -655,13 +634,14 @@ section#eventos .evento .imagem-eventos img {
 
 @media screen and ((max-width: 1010px)) {
   /* Section First - Act fig, mangás, social, navegação */
+
   #first {
-    display: flex;
     flex-direction: column;
   }
 
   section#store {
     width: 100%;
+    margin-bottom: 40px;
   }
 
   main div#agregado01 {
@@ -686,31 +666,38 @@ section#eventos .evento .imagem-eventos img {
     align-items: center;
   }
 
+  article#post02 #manga {
+    padding-top: 20px;
+  }
+
   article#post02 #manga #imgmanga {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
 
-  section#video-navigate {
+  article#post02 #manga #imgmanga .figura {
+    padding-top: 0;
+  }
+
+  #video-navigate {
     margin-left: 0px;
     width: 100%;
   }
 
-  section#video-navigate #video {
-    margin-bottom: 20px;
+  #video-navigate #video {
+    margin-bottom: 40px;
   }
 
   article#post01 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   article#post02 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
   }
 
   main div#botao a:first-child {
@@ -901,11 +888,10 @@ section#eventos .evento .imagem-eventos img {
 }
 
 @media screen and ((max-width: 1020px)) {
-  /* Section novidades - sobre  */
+  /* Section - Novidades - Sobre  */
+
   #novidades-sobre {
-    display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   #novidades {
@@ -930,22 +916,29 @@ section#eventos .evento .imagem-eventos img {
     align-items: center;
   }
 
-  /* Section Rank - Eventos  */
+  #sobre-editorial-social #redes-sociais ul {
+    justify-content: center;
+  }
+
+
+  /* Section - Rank - Eventos  */
 
   #rank-eventos #conteudo {
     flex-direction: column;
+    padding: 40px 20px;
   }
 
-  #rank-eventos #conteudo :nth-child(1) {
+  #rank-eventos #conteudo #rank-animes {
     order: 1;
     padding: 0;
   }
 
-  #rank-eventos #conteudo :nth-child(2) {
+  #rank-eventos #conteudo #eventos {
     order: 3;
+    padding: 0;
   }
 
-  #rank-eventos #conteudo :nth-child(3) {
+  #rank-eventos #conteudo #rank-mangas {
     order: 2;
     padding: 0;
   }
@@ -961,11 +954,11 @@ section#eventos .evento .imagem-eventos img {
     font-size: 16px;
   }
 
-  section#eventos .evento .imagem-eventos figcaption {
+  #eventos .evento .imagem-eventos figcaption {
     font-size: 16px;
   }
 
-  section#eventos .evento .imagem-eventos img {
+  #eventos .evento .imagem-eventos img {
     width: 100%;
     height: 100%;
   }
@@ -1054,7 +1047,30 @@ section#eventos .evento .imagem-eventos img {
 }
 
 @media screen and ((max-width: 350px)) {
+  /* Section - First */
+
+  #first #post01 #botao {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #first #post01 #botao a {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  #first #post01 #botao a:first-child {
+    margin-right: 0;
+  }
+
+  #first #post01 #botao a:last-child {
+    margin-bottom: 0;
+  }
+
+
   /* Section novidades - sobre  */
+
   #novidades .novidade p {
     padding-left: 0px;
   }
