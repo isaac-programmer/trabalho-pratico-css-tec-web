@@ -4,8 +4,8 @@ header #informacoes {
 }
 
 header #informacoes figure {
-  width: 80px;
-  height: 80px;
+  width: 130px;
+  height: 130px;
   margin-right: 20px;
 }
 
@@ -28,12 +28,18 @@ header #informacoes #conjunto #linguagens-links {
   flex-direction: column;
 }
 
+header #informacoes #conjunto #titulo-descricao h1 {
+  color: #F8D66A;
+}
+
 header #informacoes #conjunto #titulo-descricao h3 {
+  color: white;
   margin-top: 15px;
 }
 
 header #informacoes #conjunto #linguagens-links #linguagens,
 header #informacoes #conjunto #linguagens-links #links {
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -41,16 +47,16 @@ header #informacoes #conjunto #linguagens-links #links {
 }
 
 header #informacoes #conjunto #linguagens a {
-  color: white;
+  color: black;
   display: inline-block;
   padding: 5px;
   margin-right: 5px;
-  background-color: rgba(255, 166, 0, 0.563);
+  background-color: #F8D66A;
   text-decoration: none;
 }
 
 header #informacoes #conjunto #linguagens a:hover {
-  color: black;
+  color: #e752bf;
 }
 
 header #informacoes #conjunto #linguagens-links #links {
@@ -63,14 +69,14 @@ header #informacoes #conjunto #links span {
 }
 
 header #informacoes #conjunto #links a {
-  color: black;
+  color: white;
   display: inline-block;
   padding: 5px;
   text-decoration: none;
 }
 
 header #informacoes #conjunto #links a:hover {
-  color: rgba(255, 166, 0, 0.563);
+  color: #e752bf;
 }
 
 header #informacoes #conjunto #linguagens a:last-child {
@@ -83,7 +89,7 @@ header #navegacao-busca {
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
-  background-color: rgba(255, 166, 0, 0.563);
+  background-color: #F8D66A;
 }
 
 header #navegacao-busca nav {
@@ -99,11 +105,14 @@ header #navegacao-busca nav ul {
 }
 
 header ul a {
+  display: inline-block;
+  color: black;
   font-weight: 900;
 }
 
 header ul a:hover {
-  color: black;
+  color: #e752bf;
+  transform: scale(1.5);
 }
 
 header #navegacao-busca #busca {
@@ -223,8 +232,8 @@ header #navegacao-busca #busca .icone-busca img {
   header #navegacao-busca nav {
     width: 100%;
     margin-bottom: 20px;
-    background-color: rgba(255, 166, 0, 0.563);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #F8D66A;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
   }
 
   header #navegacao-busca nav ul {
