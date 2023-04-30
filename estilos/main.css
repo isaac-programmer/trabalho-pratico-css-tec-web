@@ -245,7 +245,7 @@ main #cards article {
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   background-color: #450F03;
-  border: 2px solid #F8D66A;
+  border: 1px solid #F8D66A;
 }
 
 main #cards article:hover {
@@ -259,7 +259,7 @@ main #cards article h2 {
 }
 
 main #cards article p {
-  color: #f8d76a66;
+  color: rgba(255, 255, 255, 0.8);
   hyphens: auto;
   text-indent: 40px;
   word-wrap: break-word;
@@ -283,7 +283,7 @@ main #assinar-newsletter {
 }
 
 main #assinar-newsletter h2 {
-  color: #F8D66A;;
+  color: #F8D66A;
   margin-bottom: 40px;
 }
 
@@ -335,7 +335,7 @@ main #assinar-newsletter form button {
   font-weight: 700;
   padding: 10px;
   border: none;
-  color: rgb(255, 255, 255);
+  color: #08050E;
   border-radius: 5px;
   background-color: #F8D66A;;
 }
@@ -350,6 +350,7 @@ main #assinar-newsletter form button {
 }
 
 #ultimas-avaliacoes h2 {
+  color: #F8D66A;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -368,7 +369,8 @@ main #assinar-newsletter form button {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #450F03;
+  border: 1px solid #F8D66A;
 }
 
 #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
@@ -398,10 +400,12 @@ main #assinar-newsletter form button {
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes h3 {
+  color: #F8D66A;
   text-align: center;
 }
 
 #ultimas-avaliacoes .card-avaliacao .avaliacao {
+  color: rgba(255, 255, 255, 0.8);
   hyphens: auto;
   margin-bottom: 20px;
   text-align: justify;
@@ -422,7 +426,13 @@ main #assinar-newsletter form button {
   align-items: center;
 }
 
-#ultimas-avaliacoes .card-avaliacao .nota-data .nota span {
+#ultimas-avaliacoes .card-avaliacao .nota-data .nota i {
+  color: #F8D66A;
+  cursor: pointer;
+}
+
+#ultimas-avaliacoes .card-avaliacao .nota-data .data {
+  color: #F8D66A;
   cursor: pointer;
 }
 
@@ -444,9 +454,9 @@ main #assinar-newsletter form button {
   font-weight: 700;
   padding: 10px;
   border: none;
-  color: rgb(255, 255, 255);
+  color: #08050E;
   border-radius: 5px;
-  background-color: rgba(255, 166, 0, 0.563);
+  background-color: #F8D66A;
 }
 
 /* Section - Últimas Avaliações - Fim */
@@ -462,12 +472,13 @@ main #assinar-newsletter form button {
 }
 
 #novidades {
-  border: 1px solid rgba(0, 0, 0, 0.2);
   width: 50%;
+  border: 1px solid #F8D66A;
+  background-color: #450F03
 }
 
 #novidades h2 {
-  background-color: #eeeeee;
+  background-color: #F8D66A;
   padding: 20px;
 }
 
@@ -493,29 +504,31 @@ main #assinar-newsletter form button {
 }
 
 #novidades .novidade p a {
-  color: black;
+  color: white;
   text-decoration: none;
   list-style: none;
 }
 
 #novidades .novidade p a:hover {
-  color: blue;
+  color: #F8D66A;
 }
 
 #sobre-editorial-social {
   width: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #450F03;
+  border: 1px solid #F8D66A;
 }
 
 #sobre-editorial-social #sobre h2,
 #sobre-editorial-social #editorial h2,
 #sobre-editorial-social #redes-sociais h2 {
   padding: 20px;
-  background-color: #eeeeee;
+  background-color: #F8D66A;
 }
 
 #sobre-editorial-social #sobre p,
 #sobre-editorial-social #editorial #conteudo-editorial {
+  color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   text-align: justify;
 }
