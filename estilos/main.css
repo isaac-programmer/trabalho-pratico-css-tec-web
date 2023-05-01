@@ -63,7 +63,7 @@
 }
 
 #first #store #post01 section ul.info li {
-  font-size: 20px;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -242,6 +242,7 @@
 }
 
 #cards article:hover {
+  box-shadow: 0 0 5px #e752bf;
   transform: scale(1.04);
 }
 
@@ -267,7 +268,7 @@
 
 /* Section - Assinar Newsletter - Início */
 
-main #assinar-newsletter {
+#assinar-newsletter {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,12 +276,12 @@ main #assinar-newsletter {
   margin-top: 40px;
 }
 
-main #assinar-newsletter h2 {
+#assinar-newsletter h2 {
   color: #F8D66A;
   margin-bottom: 40px;
 }
 
-main #assinar-newsletter form {
+#assinar-newsletter form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,42 +289,42 @@ main #assinar-newsletter form {
   padding: 20px 40px;
   border-radius: 10px;
   background-color: #450F03;
-  border: 2px solid #F8D66A;
+  border: 1px solid #F8D66A;
 }
 
-main #assinar-newsletter form div {
+#assinar-newsletter form div {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
-main #assinar-newsletter form div label { 
+#assinar-newsletter form div label { 
   color: #F8D66A;
 }
 
-main #assinar-newsletter form div:last-child {
+#assinar-newsletter form div:last-child {
   margin-bottom: 0;
 }
 
-main #assinar-newsletter form select,
-main #assinar-newsletter form input[type="text"],
-main #assinar-newsletter form input[type="tel"],
-main #assinar-newsletter form input[type="email"],
-main #assinar-newsletter form input[type="date"] {
+#assinar-newsletter form select,
+#assinar-newsletter form input[type="text"],
+#assinar-newsletter form input[type="tel"],
+#assinar-newsletter form input[type="email"],
+#assinar-newsletter form input[type="date"] {
   display: inline-block;
   margin-top: 5px;
   padding: 8px;
   width: 100%;
 }
 
-main #assinar-newsletter form #botao-assinar {
+#assinar-newsletter form #botao-assinar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-main #assinar-newsletter form button {
+#assinar-newsletter form button {
   cursor: pointer;
   font-weight: 700;
   padding: 10px;
@@ -356,18 +357,26 @@ main #assinar-newsletter form button {
 }
 
 #ultimas-avaliacoes #avaliacoes .card-avaliacao {
+  cursor: pointer;
   width: 25%;
+  min-height: 270px;
   padding: 20px;
   margin-right: 40px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
   background-color: #450F03;
   border: 1px solid #F8D66A;
 }
 
 #ultimas-avaliacoes #avaliacoes .card-avaliacao:last-child {
   margin-right: 0;
+}
+
+#ultimas-avaliacoes #avaliacoes .card-avaliacao:hover {
+  box-shadow: 0 0 5px #e752bf;
+  transform: scale(1.04);
 }
 
 #ultimas-avaliacoes .card-avaliacao .informacoes {
@@ -400,6 +409,7 @@ main #assinar-newsletter form button {
 #ultimas-avaliacoes .card-avaliacao .avaliacao {
   color: rgba(255, 255, 255, 0.8);
   hyphens: auto;
+  min-height: 110px;
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -582,8 +592,8 @@ main #assinar-newsletter form button {
 #rank-eventos #rank-mangas .manga-rank {
   cursor: pointer;
   width: 300px;
+  height: 400px;
   margin-bottom: 40px;
-  border: 1px solid #F8D66A;
 }
 
 #rank-eventos #rank-animes .anime-rank:last-child,
@@ -597,6 +607,8 @@ main #assinar-newsletter form button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank img,
@@ -604,6 +616,7 @@ main #assinar-newsletter form button {
   display: inline-block;
   min-width: 100%;
   max-width: 100%;
+  height: 100%;
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
@@ -616,7 +629,7 @@ main #assinar-newsletter form button {
   padding: 5px;
   margin: 0 !important;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   background-color: rgba(128, 128, 128, 0.8);
 }
@@ -626,7 +639,14 @@ main #assinar-newsletter form button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:flex-start;
+}
+
+#eventos section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #eventos .evento {
@@ -644,9 +664,7 @@ main #assinar-newsletter form button {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
-  
+  justify-content: center;  
 }
 
 #eventos .evento p {
@@ -1039,6 +1057,7 @@ main #assinar-newsletter form button {
   
   #first #post01 #botao a {
     text-align: center !important;
+    padding: 10px !important;
     margin-bottom: 20px !important;
     width: 100% !important;
   }
