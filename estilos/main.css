@@ -12,41 +12,60 @@ main #banner {
 /* Seção - Banner - Fim */
 
 
-/* Section - First - Início*/
+/* Section - First - Início */
 
 #first {
   display: flex;
 }
 
-section#store {
+#first #store {
   width: 80%;
-  background-color: #450F03;
 }
 
-#first #post01 h2,
-#first #post02 h2 {
+#first #store #post01 h2,
+#first #store #post02 h2 {
   color: #08050E;
   text-align: center;
   padding: 20px;
   background-color: #F8D66A;
 }
 
-div#agregado01 ul.info li {
-  font-size: 20px;
-  text-align: justify;
+#first #store #post01,
+#first #store #post02 {
+  background-color: #450F03;
+  border: 1px solid #F8D66A;
 }
 
-article#post01 #agregado01 .imagem img {
-  width: 100%;
-  height: 100%;
+#first #store #post01 section {
+  display: flex;
 }
 
-article#post01 #agregado01 .imagem {
+#first #store #post01 section figure {
   width: 300px;
   height: 300px;
 }
 
-#post01 #botao {
+#first #store #post01 section figure img {
+  width: 100%;
+  height: 100%;
+}
+
+#first #store #post01 section ul.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-position: inside;
+  list-style-type: square;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#first #store #post01 section ul.info li {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#first #store #post01 #botao {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,7 +76,7 @@ article#post01 #agregado01 .imagem {
   text-decoration: none;
 }
 
-#post01 #botao a {
+#first #store #post01 #botao a {
   display: inline-block;
   cursor: pointer;
   font-weight: 700;
@@ -68,35 +87,41 @@ article#post01 #agregado01 .imagem {
   background-color: #F8D66A;
 }
 
-#post01 #botao a:first-child {
+#first #store #post01 #botao a:first-child {
   margin-right: 100px;
 }
 
-article#post02 {
+#first #store #post02 {
   display: flex;
   flex-direction: column;
-  border: 1px solid #F8D66A;
 }
 
-article#post02 #manga p {
-  color: white;
-  padding: 20px;
-  text-align: justify;
+#first #store #post02 #manga {
+  display: flex;
+  flex-direction: column;
 }
 
-article#post02 #manga #imgmanga .figura img {
-  width: 100%;
-  height: 100%;
+#first #store #post02 #manga #imgmanga {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-article#post02 #manga #imgmanga .figura {
+#first #store #post02 #manga #imgmanga .figura {
   position: relative;
   width: 200px;
   height: 200px;
   padding-top: 20px;
 }
 
-article#post02 #manga #imgmanga .figura figcaption{
+#first #store #post02 #manga #imgmanga .figura img {
+  width: 100%;
+  height: 100%;
+}
+
+#first #store #post02 #manga #imgmanga .figura figcaption{
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -109,114 +134,77 @@ article#post02 #manga #imgmanga .figura figcaption{
   background-color: rgba(128, 128, 128, 0.8);
 }
 
-article#post02 #manga #imgmanga {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+#first #store #post02 #manga p {
+  color: white;
+  padding: 20px;
+  text-align: justify;
 }
 
-#manga {
-  display: flex;
-  flex-direction: column;
-}
 
-article#post01 {
-  border: 1px solid #F8D66A;
-}
-
-article#post02 {
-  border: 1px solid #F8D66A;
-
-}
-
-#video-navigate {
-  margin-left: 20px;
+#first #video-navigate {
   width: 20%;
+  margin-left: 20px;
 }
 
-#video-navigate #video {
-  background-color: #450F03;
+#first #video-navigate #video {
   margin-bottom: 20px;
-  border: 1px solid #F8D66A;
+  background-color: #450F03;
 }
 
-#video-navigate #navigate {
-  border: 1px solid #F8D66A;
-
-}
-
-#first section#video h2 {
+#first #video-navigate #video h2 {
   display: flex;
   justify-content: center;
   padding: 20px;
-  border-bottom: 1px solid black;
   background-color: #F8D66A;
 }
 
-#first aside#navigate h2 {
+#first #video-navigate #video #link {
+  padding: 20px 0;
+  border-top: 1px solid #F8D66A;
+}
+
+#first #video-navigate #video #link ul a {
+  color: #F8D66A;
   display: flex;
-  justify-content: center;
-  padding: 20px;
-  border-bottom: 1px solid black;
-  background-color: #F8D66A;
-}
-
-aside {
-  border: 1px solid #F8D66A;
-}
-
-aside ul a {
-  color: black;
-  text-decoration: none;
   list-style: none;
-}
-
-article ul.info {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-family: 'I hate Comic Sans';
 }
 
-aside#navigate ul {
+#first #video-navigate #video #link ul a:hover {
+  color: #e752bf;
+}
+
+#first #video-navigate #video,
+#first #video-navigate #navigate {
+  border: 1px solid #F8D66A;
+}
+
+#first #video-navigate #navigate h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #F8D66A;
+}
+
+#first #video-navigate #navigate ul {
   background-color: #450F03;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-aside#navigate ul a.navi {
-  display: flex;
-  color: #F8D66A;
-  text-decoration: none;
-  justify-content: center;
-}
-
-aside#navigate ul a.navi li:hover {
-  color: blue;
-}
-
-div#link ul a {
+#first #video-navigate #navigate ul a {
   color: #F8D66A;
   display: flex;
   list-style: none;
-  justify-content: center;
   text-decoration: none;
+  justify-content: center;
+  font-family: 'I hate Comic Sans';
 }
 
-div#link ul a:hover {
-  color: blue;
-}
-
-ul.info {
-  list-style-position: inside;
-  list-style-type: square;
-  padding: 20px;
-}
-
-main div#agregado01 {
-  display: flex;
+#first #video-navigate #navigate ul a li:hover {
+  color: #e752bf;
 }
 
 /* Section - First - Fim*/
@@ -224,14 +212,14 @@ main div#agregado01 {
 
 /* Section - Cards - Início */
 
-main #cards {
+#cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-main #cards article {
+#cards article {
   cursor: pointer;
   width: 30%;
   height: 280px;
@@ -244,17 +232,17 @@ main #cards article {
   border: 1px solid #F8D66A;
 }
 
-main #cards article:hover {
+#cards article:hover {
   transform: scale(1.04);
 }
 
-main #cards article h2 {
+#cards article h2 {
   color: #F8D66A;
   text-align: center;
   margin-bottom: 30px;
 }
 
-main #cards article p {
+#cards article p {
   color: rgba(255, 255, 255, 0.8);
   hyphens: auto;
   text-indent: 40px;
@@ -455,6 +443,11 @@ main #assinar-newsletter form button {
   background-color: #F8D66A;
 }
 
+#ultimas-avaliacoes #botao-carregar-avaliacoes button i {
+  display: inline-block;
+  margin-right: 5px;
+}
+
 /* Section - Últimas Avaliações - Fim */
 
 
@@ -476,6 +469,7 @@ main #assinar-newsletter form button {
 #novidades h2 {
   background-color: #F8D66A;
   padding: 20px;
+  text-align: center;
 }
 
 #novidades .novidade {
@@ -518,6 +512,7 @@ main #assinar-newsletter form button {
 #sobre-editorial-social #sobre h2,
 #sobre-editorial-social #editorial h2,
 #sobre-editorial-social #redes-sociais h2 {
+  text-align: center;
   padding: 20px;
   background-color: #F8D66A;
 }
@@ -548,8 +543,8 @@ main #assinar-newsletter form button {
 /* Section - Rank e Eventos - Início */
 
 #rank-eventos {
-  margin-top: 40px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 40px 0;
+  border: 1px solid #F8D66A;
 }
 
 #rank-eventos h2 {
@@ -563,18 +558,15 @@ main #assinar-newsletter form button {
   padding: 40px;
 }
 
-#rank-eventos #rank-animes,
-#rank-eventos #rank-mangas{
-  background-color: #450F03;
-}
-
 #rank-eventos #rank-animes h2,
 #rank-eventos #rank-mangas h2,
 #rank-eventos #eventos h2 {
-  margin-bottom: 40px;
   color: #F8D66A;
-  background-color: #450F03;
+  width: 100%;
   padding: 20px 0;
+  margin-bottom: 40px;
+  background-color: #450F03;
+  border: 1px solid #F8D66A;
 }
 
 #rank-eventos #rank-animes .anime-rank,
@@ -582,6 +574,7 @@ main #assinar-newsletter form button {
   cursor: pointer;
   width: 300px;
   margin-bottom: 40px;
+  border: 1px solid #F8D66A;
 }
 
 #rank-eventos #rank-animes .anime-rank:last-child,
@@ -605,10 +598,10 @@ main #assinar-newsletter form button {
 }
 
 #rank-eventos #rank-animes .anime-rank .imagem-rank figcaption,
-#rank-eventos #rank-mangas .manga-rank .imagem-rank figcaption {
+#rank-eventos #rank-mangas .manga-rank .imagem-rank figcaption,
+#rank-eventos #eventos .evento .imagem-eventos figcaption {
   position: absolute;
   bottom: 0;
-
   width: 100%;
   color: white;
   padding: 5px;
@@ -618,6 +611,7 @@ main #assinar-newsletter form button {
   font-weight: 700;
   background-color: rgba(128, 128, 128, 0.8);
 }
+
 
 #eventos {
   display: flex;
@@ -634,19 +628,6 @@ main #assinar-newsletter form button {
 
 #eventos .evento:last-child {
   margin-bottom: 0;
-}
-
-#eventos .evento .imagem-eventos figcaption {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  padding: 5px;
-  margin: 0 !important;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: rgba(128, 128, 128, 0.8);
 }
 
 #eventos .evento .imagem-eventos {
@@ -671,194 +652,6 @@ main #assinar-newsletter form button {
 
 
 /* Media Queries */
-
-@media screen and ((max-width: 1010px)) {
-  /* Section First - Act fig, mangás, social, navegação */
-
-  #first {
-    flex-direction: column;
-  }
-
-  section#store {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  main div#agregado01 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  article#post01 #agregado01 .imagem{
-    padding-top: 20px;
-  }
-
-  main article#post01 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  main article#post02 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  article#post02 #manga {
-    padding-top: 20px;
-  }
-
-  article#post02 #manga #imgmanga {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-  }
-
-  article#post02 #manga #imgmanga .figura {
-    padding-top: 0;
-  }
-
-  #video-navigate {
-    margin-left: 0px;
-    width: 100%;
-  }
-
-  #video-navigate #video {
-    margin-bottom: 40px;
-  }
-
-  article#post01 {
-    margin-bottom: 40px;
-  }
-
-  article#post02 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  main div#botao a:first-child {
-    margin-right: 50px;
-  }
-
-  iframe {
-    height: 400px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  article#post01 #agregado01 .imagem {
-    width: 200px;
-    height: 200px;
-  }
-
-  main div#botao a:first-child {
-    margin-right: 25px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  div#agregado01 ul.info li {
-    font-size: 12px;
-  }
-
-  main article#post01 h2 {
-    font-size: medium;
-  }
-
-  main article#post02 h2 {
-    font-size: medium;
-  }
-
-  main aside#navigate h2 {
-    font-size: medium;
-  }
-
-  main section#video h2 {
-    font-size: medium;
-  }
-
-  article#post02 #manga p {
-    padding-top: 80px;
-  }
-
-
-  article#post02 #manga #imgmanga .figura {
-    width: 180px;
-    height: 170px;
-  }
-
-  article#post01 #agregado01 .imagem {
-    width: 180px;
-    height: 170px;
-  }
-
-  main div#botao a:first-child {
-    margin-right: 5px;
-  }
-
-  main div#botao {
-    font-weight: 300;
-  }
-
-  main div#botao a {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  article#post02 #manga #imgmanga .figura {
-    width: 160px;
-    height: 150px;
-  }
-
-  article#post01 #agregado01 .imagem {
-    width: 160px;
-    height: 150px;
-  }
-
-  main div#botao a:first-child {
-    margin-right: 0px;
-    margin-bottom: 5px;
-  }
-
-  main div#botao {
-    font-weight: 150;
-    font-size: small;
-    flex-direction: column;
-  }
-
-  main div#botao a {
-    padding: 1px;
-    width: 80px;
-    align-items: center;
-  }
-
-  div#agregado01 ul.info li {
-    font-size: 11px;
-  }
-
-  main article#post01 h2 {
-    font-size: medium;
-  }
-
-  main article#post02 h2 {
-    font-size: medium;
-  }
-
-  main aside#navigate h2 {
-    font-size: medium;
-  }
-
-  main section#video h2 {
-    font-size: medium;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   /* Últimas Avaliações */
@@ -888,41 +681,6 @@ main #assinar-newsletter form button {
   }
 
   #ultimas-avaliacoes #botao-carregar-avaliacoes button {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  /* Cards */
-
-  main #cards {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-  }
-
-  main #cards article {
-    width: 100%;
-    height: 260px;
-  }
-
-  main #cards article p {
-    text-indent: 0;
-  }
-
-  /* Assinar Newsletter */
-
-  main #assinar-newsletter h2 {
-    text-align: center;
-    font-size: 1.4rem;
-  }
-
-  main #assinar-newsletter form {
-    width: 100%;
-  }
-
-  main #assinar-newsletter form button {
     width: 100%;
   }
 }
@@ -1004,8 +762,116 @@ main #assinar-newsletter form button {
   }
 }
 
+@media screen and ((max-width: 1010px)) {
+  /* Section - First - Act fig, mangás, social, navegação */
+
+  #first {
+    flex-direction: column;
+  }
+
+  #first #store {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #first #store #post01 h2,
+  #first #store #post02 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #first #store #post01 {
+    margin-bottom: 40px;
+  }
+
+  #first #store #post01 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #first #store #post01 section .imagem{
+    padding-top: 20px;
+  }
+
+  #first #store #post01 #botao a:first-child {
+    margin-right: 50px;
+  }
+
+  #first #store #post02 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first #store #post02 #manga {
+    padding-top: 20px;
+  }
+
+  #first #store #post02 #manga #imgmanga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #first #store #post02 #manga #imgmanga .figura {
+    padding-top: 0;
+  }
+
+  #first #video-navigate {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  #first #video-navigate #video {
+    margin-bottom: 40px;
+  }
+
+  #first #video-navigate #video #trailer iframe {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* Cards */
+
+  #cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  #cards article {
+    width: 100%;
+    height: 260px;
+  }
+
+  #cards article p {
+    text-indent: 0;
+  }
+
+  /* Assinar Newsletter */
+
+  #assinar-newsletter h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  #assinar-newsletter form {
+    width: 100% !important;
+  }
+
+  #assinar-newsletter form button {
+    width: 100%;
+  }
+}
+
 @media screen and ((max-width: 558px)) {
-  /* Section novidades - sobre  */
+  /* Section - Novidades - Sobre  */
+
   #novidades .novidade p {
     font-size: 12px;
   }
@@ -1026,8 +892,20 @@ main #assinar-newsletter form button {
   }
 }
 
+@media screen and (max-width: 475px) {
+  #first #store #post01 section .imagem {
+    width: 200px;
+    height: 200px;
+  }
+
+  #first #store #post01 #botao a:first-child {
+    margin-right: 25px;
+  }
+}
+
 @media screen and ((max-width: 474px)) {
-  /* Section Últimas Avaliações  */
+  /* Section - Últimas Avaliações  */
+
   #ultimas-avaliacoes .card-avaliacao .informacoes {
     flex-direction: column;
   }
@@ -1050,7 +928,7 @@ main #assinar-newsletter form button {
     margin-top: 20px;
   }
 
-  /* Section novidades - sobre  */
+  /* Section - Novidades - Sobre  */
   #novidades h2 {
     font-size: medium;
   }
@@ -1086,30 +964,75 @@ main #assinar-newsletter form button {
   }
 }
 
+@media screen and (max-width: 375px) {
+  #first #store #post01 h2,
+  #first #store #post02 h2 {
+    font-size: medium;
+  }
+
+  #first #store #post01 section .imagem {
+    width: 180px;
+    height: 170px;
+  }
+
+  #first #store #post01 section ul.info li {
+    font-size: 12px;
+  }
+
+  #first #store #post01 #botao {
+    font-weight: 300;
+  }
+
+  #first #store #post01 #botao a {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  #first #store #post01 #botao a:first-child {
+    margin-right: 5px;
+  }
+
+  #first #store #post02 #manga #imgmanga .figura {
+    width: 180px;
+    height: 170px;
+  }
+
+  #first #store #post02 #manga p {
+    padding-top: 40px;
+  }
+
+  #first #video-navigate #video h2,
+  #first #video-navigate #navigate h2 {
+    font-size: medium;
+  }
+
+}
+
 @media screen and ((max-width: 350px)) {
   /* Section - First */
 
   #first #post01 #botao {
-    flex-direction: column;
+    flex-direction: column !important;
     padding: 20px;
   }
   
   #first #post01 #botao a {
-    text-align: center;
-    margin-bottom: 20px;
-    width: 100%;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
   }
   
   #first #post01 #botao a:first-child {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
   #first #post01 #botao a:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 
 
-  /* Section novidades - sobre  */
+  /* Section - Novidades - Sobre  */
 
   #novidades .novidade p {
     padding-left: 0px;
@@ -1121,8 +1044,52 @@ main #assinar-newsletter form button {
   }
 }
 
+@media screen and (max-width: 300px) {
+  #first #store #post01 section .imagem {
+    width: 160px;
+    height: 150px;
+  }
+
+  #first #store #post01 #botao {
+    font-weight: 150;
+    font-size: small;
+    flex-direction: column;
+  }
+
+  #first #store #post01 #botao a {
+    padding: 1px;
+    width: 80px;
+    align-items: center;
+  }
+
+  #first #store #post01 #botao a:first-child {
+    margin-bottom: 5px;
+  }
+
+  #first #store #post01 section ul.info li {
+    font-size: 11px;
+  }
+
+  #first #store #post01 h2,
+  #first #store #post02 h2 {
+    font-size: medium;
+  }
+
+  #first #store #post02 #manga #imgmanga .figura {
+    width: 160px;
+    height: 150px;
+  }
+
+  #first #video-navigate #video h2,
+  #first #video-navigate #navigate h2 {
+    font-size: medium;
+  }
+
+}
+
 @media screen and ((max-width: 285px)) {
-  /* Section novidades - sobre  */
+  /* Section - Novidades - Sobre  */
+
   #sobre-editorial-social #redes-sociais ul img {
     width: 30px;
     height: 30px;
