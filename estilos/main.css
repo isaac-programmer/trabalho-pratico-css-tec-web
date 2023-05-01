@@ -626,13 +626,14 @@ main #assinar-newsletter form button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 #eventos .evento {
   margin-bottom: 40px;
   background-color: #450F03;
   border: 1px solid #F8D66A;
+  height: auto;
 }
 
 #eventos .evento:last-child {
@@ -644,6 +645,8 @@ main #assinar-newsletter form button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  
 }
 
 #eventos .evento p {
