@@ -1,6 +1,6 @@
 /* Seção - Banner - Início */
 
-main #banner {
+#banner {
   margin: 20px 0;
   height: 650px;
   background-image: url("/imagens/banner-02.jpg");
@@ -38,6 +38,8 @@ main #banner {
 
 #first #store #post01 section {
   display: flex;
+  flex-direction: row;
+  padding: 20px 20px 0;
 }
 
 #first #store #post01 section figure {
@@ -99,6 +101,7 @@ main #banner {
 #first #store #post02 #manga {
   display: flex;
   flex-direction: column;
+  padding: 20px 20px 0;
 }
 
 #first #store #post02 #manga #imgmanga {
@@ -113,7 +116,6 @@ main #banner {
   position: relative;
   width: 200px;
   height: 200px;
-  padding-top: 20px;
 }
 
 #first #store #post02 #manga #imgmanga .figura img {
@@ -135,15 +137,20 @@ main #banner {
 }
 
 #first #store #post02 #manga p {
-  color: white;
-  padding: 20px;
+  padding: 20px 0;
   text-align: justify;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 
 #first #video-navigate {
   width: 20%;
   margin-left: 20px;
+}
+
+#first #video-navigate #video,
+#first #video-navigate #navigate {
+  border: 1px solid #F8D66A;
 }
 
 #first #video-navigate #video {
@@ -158,9 +165,12 @@ main #banner {
   background-color: #F8D66A;
 }
 
+#first #video-navigate #video #trailer {
+  margin-top: 20px;
+}
+
 #first #video-navigate #video #link {
   padding: 20px 0;
-  border-top: 1px solid #F8D66A;
 }
 
 #first #video-navigate #video #link ul a {
@@ -176,10 +186,6 @@ main #banner {
   color: #e752bf;
 }
 
-#first #video-navigate #video,
-#first #video-navigate #navigate {
-  border: 1px solid #F8D66A;
-}
 
 #first #video-navigate #navigate h2 {
   display: flex;
@@ -189,17 +195,20 @@ main #banner {
 }
 
 #first #video-navigate #navigate ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
   background-color: #450F03;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #first #video-navigate #navigate ul a {
   color: #F8D66A;
   display: flex;
+  justify-content: center;
   list-style: none;
   text-decoration: none;
-  justify-content: center;
   font-family: 'I hate Comic Sans';
 }
 
@@ -786,13 +795,21 @@ main #assinar-newsletter form button {
   }
 
   #first #store #post01 section {
-    display: flex;
+    padding: 40px 20px 0;
     flex-direction: column;
     align-items: center;
   }
 
-  #first #store #post01 section .imagem{
-    padding-top: 20px;
+  #first #store #post01 section figure {
+    margin-bottom: 40px;
+  }
+
+  #first #store #post01 section ul.info {
+    padding: 0;
+  }
+
+  #first #store #post01 #botao {
+    padding: 40px 20px;
   }
 
   #first #store #post01 #botao a:first-child {
@@ -805,7 +822,7 @@ main #assinar-newsletter form button {
   }
 
   #first #store #post02 #manga {
-    padding-top: 20px;
+    padding: 40px 20px 0;
   }
 
   #first #store #post02 #manga #imgmanga {
@@ -818,6 +835,10 @@ main #assinar-newsletter form button {
 
   #first #store #post02 #manga #imgmanga .figura {
     padding-top: 0;
+  }
+
+  #first #store #post02 #manga p {
+    padding: 40px 0;
   }
 
   #first #video-navigate {
@@ -893,7 +914,7 @@ main #assinar-newsletter form button {
 }
 
 @media screen and (max-width: 475px) {
-  #first #store #post01 section .imagem {
+  #first #store #post01 section figure {
     width: 200px;
     height: 200px;
   }
@@ -970,7 +991,7 @@ main #assinar-newsletter form button {
     font-size: medium;
   }
 
-  #first #store #post01 section .imagem {
+  #first #store #post01 section figure {
     width: 180px;
     height: 170px;
   }
@@ -996,10 +1017,6 @@ main #assinar-newsletter form button {
   #first #store #post02 #manga #imgmanga .figura {
     width: 180px;
     height: 170px;
-  }
-
-  #first #store #post02 #manga p {
-    padding-top: 40px;
   }
 
   #first #video-navigate #video h2,
@@ -1045,7 +1062,7 @@ main #assinar-newsletter form button {
 }
 
 @media screen and (max-width: 300px) {
-  #first #store #post01 section .imagem {
+  #first #store #post01 section figure {
     width: 160px;
     height: 150px;
   }

@@ -100,7 +100,7 @@ header #navegacao-busca {
 }
 
 header #navegacao-busca nav {
-  width: 75%;
+  width: 80%;
 }
 
 header #navegacao-busca nav ul {
@@ -128,7 +128,7 @@ header #navegacao-busca #busca {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 15%;
+  width: 10%;
   margin-left: 20px;
 }
 
