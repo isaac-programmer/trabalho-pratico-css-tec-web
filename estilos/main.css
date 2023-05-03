@@ -775,6 +775,7 @@
 
   #novidades-sobre {
     flex-direction: column;
+    gap: 80px;
   }
 
   #novidades {
@@ -856,18 +857,18 @@
 
   #first #store {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
-  #first #store #post01 h2,
-  #first #store #post02 h2 {
+  #first #store #post01 h2 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
+  #first #store #post01,
   #first #store #post01 {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   #first #store #post01 section {
@@ -923,7 +924,7 @@
   }
 
   #first #video-navigate #video {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 
   #first #video-navigate #video #trailer iframe {
