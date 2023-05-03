@@ -239,7 +239,7 @@
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   background-color: #450F03;
-  border: 1px solid #F8D66A;
+  border: 2px solid #F8D66A;
 }
 
 #cards article div {
@@ -247,17 +247,21 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 280px;
+  height: 100%;
   padding: 20px;
-  background-color: #08050eab;
-  border: 1px solid black;
+  background-color: rgba(8, 5, 14, 0.3);
+  border-radius: 10px;
 }
 
-#cards article#card01 {
-  background-image: url("/imagens/Naruto.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#cards article section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #08050eab;
 }
 
 #cards article#card01 {
@@ -268,7 +272,7 @@
 }
 
 #cards article#card02 {
-  background-image: url("/imagens/Luffy.jpg");
+  background-image: url("/imagens/Luffy02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -304,7 +308,14 @@
   align-items: center;
   max-width: 100%;
   height: 100%;
+}
 
+#cards article p {
+  height: 90%
+}
+
+#cards article h2 {
+  height: 10%
 }
 
 /* Section - Cards - Fim */
