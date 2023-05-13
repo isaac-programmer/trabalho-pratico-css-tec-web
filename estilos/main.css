@@ -3,7 +3,7 @@
 #banner {
   margin: 20px 0;
   height: 650px;
-  background-image: url("/imagens/banner-02.jpg");
+  background-image: url("../imagens/banner-02.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -281,21 +281,21 @@
 }
 
 #cards article#card01 {
-  background-image: url("/imagens/Naruto.jpg");
+  background-image: url("../imagens/Naruto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #cards article#card02 {
-  background-image: url("/imagens/Luffy02.jpg");
+  background-image: url("../imagens/Luffy02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #cards article#card03 {
-  background-image: url("/imagens/Goku02.jpg");
+  background-image: url("../imagens/Goku02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
